@@ -1,4 +1,4 @@
-package com.mpower.cas;
+package com.mpower.cas.service;
 
 import org.jasig.cas.authentication.handler.AuthenticationException;
 
