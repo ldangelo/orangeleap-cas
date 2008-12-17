@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+            http://www.springframework.org/schema/context
+            http://www.springframework.org/schema/context/spring-context-2.5.xsd
+            http://www.springframework.org/schema/aop 
+            http://www.springframework.org/schema/aop/spring-aop-2.5.xsd
+            http://www.springframework.org/schema/tx
+            http://www.springframework.org/schema/tx/spring-tx-2.0.xsd">
+
+    <!--
+    <context:property-placeholder location="classpath:"/>
+    <context:component-scan base-package=""/>
+    <aop:aspectj-autoproxy/>
+    -->
+    
+    <bean id="dataSource" class="com.mysql.jdbc.jdbc2.optional.MysqlDataSource"
+          p:serverName="localhost" p:user="cas" p:password="mpower" p:databaseName="cas"/>
+
+    <bean id="userSearch" class="com.mpower.cas.repository.JdbcUserSearchDao" p:dataSource-ref="dataSource">
+        <property name="columnNames">
+            <list>
+                <value>loginid</value>
+                <value>name</value>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="siteSearch" class="com.mpower.cas.repository.JdbcSiteSearchDao" p:dataSource-ref="dataSource">
+        <property name="columnNames">
+            <list>
+                <value>domain</value>
+                <value>name</value>
+            </list>
+        </property>
+    </bean>
+
+
+</beans>
