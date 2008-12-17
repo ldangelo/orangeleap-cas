@@ -7,7 +7,7 @@ package com.mpower.cas.domain;
  */
 public enum ActivityCode {
 
-    // NOTE: these code values match to the corresponding
+    // NOTE: these code values match the corresponding
     // column IDs in the database. If you want to change stuff around,
     // remember to keep the ActivityCode table in sync or you will cause
     // an asteroid to wipe out the planet

@@ -13,44 +13,33 @@ import java.util.Date;
  */
 public class User {
 
-    private int id;
-    // the short name used to login to the system
-    private String loginName;
+    private int id;    
+    private String loginName;  // the short name used to login to the system
     private String fullName;
     private String emailAddress;
     private Date lastLogin;
     private int loginAttempts;
     private Date passwordChangeDate;
     private String resetCode;
-    private Site site;
+    private int siteId;
+    private Date lockedDate;
 
     // various flags used to indicate the status of the User
     private boolean siteAdmin;
     private boolean locked;
     private boolean active;
 
-    /**
-     * No-arg constructor should be used when creating a new User, i.e.
-     * when the user has not been assigned an ID.
-     */
-    public User() {
-
-    }
-
-    /**
-     * This constructor should be used when loading an existing user from the
-     * database. ID is an immutable attribute of the User.
-     * @param id the unique ID for the user
-     */
-    public User(int id) {
-        this.id  = id;        
-    }
-
-    // Bunch of getters/setters. For now, ID is the only immutable field, but
-    // will change some of the flags to be immutable too
-
+    // Bunch of getters/setters.
     public int getId() {
         return id;
+    }
+
+    /**
+     * This setter should never be called by code outside the UserService.
+     * You cannot update the ID of a User manually.
+     */
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getLoginName() {
@@ -109,12 +98,12 @@ public class User {
         this.resetCode = resetCode;
     }
 
-    public Site getSite() {
-        return site;
+    public int getSiteId() {
+        return siteId;
     }
 
-    public void setSite(Site site) {
-        this.site = site;
+    public void setSiteId(int siteId) {
+        this.siteId = siteId;
     }
 
     public boolean isSiteAdmin() {
@@ -131,6 +120,18 @@ public class User {
 
     public void setLocked(boolean locked) {
         this.locked = locked;
+    }
+
+    /**
+     * The Date the account was locked. Null if the account is not locked
+     * @return
+     */
+    public Date getLockedDate() {
+        return lockedDate;
+    }
+
+    public void setLockedDate(Date lockedDate) {
+        this.lockedDate = lockedDate;
     }
 
     public boolean isActive() {

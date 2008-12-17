@@ -6,6 +6,8 @@ import org.apache.commons.logging.Log;
 import org.springframework.jdbc.core.simple.SimpleJdbcDaoSupport;
 import org.springframework.jdbc.core.simple.SimpleJdbcTemplate;
 
+import javax.annotation.PostConstruct;
+
 /**
  * JDBC implementation of the AuditDao which persists the activity data
  * to the mysql database. The expected table looks like this:
@@ -38,6 +40,10 @@ public class JdbcAuditDao extends SimpleJdbcDaoSupport implements AuditDao {
     private final static String SQL = "INSERT INTO Activity(activitycode,affecteduser," +
             "affectedsite,performedby,ipaddress,activitydttm,message) VALUES(?,?,?,?,?,?,?);";
 
+    /**
+     * Save the activity to the database
+     * @param activity
+     */
     @Override
     public void saveActivity(Activity activity) {
 
