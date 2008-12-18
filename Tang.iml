@@ -289,7 +289,9 @@
           <root url="jar://$MODULE_DIR$/lib/war/spring-context-2.5.6.jar!/" />
         </CLASSES>
         <JAVADOC />
-        <SOURCES />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../Public/Java/spring-framework-2.5.6/src" />
+        </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
@@ -381,7 +383,9 @@
           <root url="jar://$MODULE_DIR$/lib/war/spring-beans-2.5.6.jar!/" />
         </CLASSES>
         <JAVADOC />
-        <SOURCES />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../Public/Java/spring-framework-2.5.6/src" />
+        </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
@@ -426,7 +430,9 @@
           <root url="jar://$MODULE_DIR$/lib/war/spring-core-2.5.6.jar!/" />
         </CLASSES>
         <JAVADOC />
-        <SOURCES />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../Public/Java/spring-framework-2.5.6/src" />
+        </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
@@ -527,7 +533,9 @@
           <root url="jar://$MODULE_DIR$/lib/war/spring-orm-2.5.6.jar!/" />
         </CLASSES>
         <JAVADOC />
-        <SOURCES />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../Public/Java/spring-framework-2.5.6/src" />
+        </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
@@ -536,7 +544,9 @@
           <root url="jar://$MODULE_DIR$/lib/war/spring-web-2.5.6.jar!/" />
         </CLASSES>
         <JAVADOC />
-        <SOURCES />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../Public/Java/spring-framework-2.5.6/src" />
+        </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
@@ -581,7 +591,9 @@
           <root url="jar://$MODULE_DIR$/lib/war/spring-jdbc-2.5.6.jar!/" />
         </CLASSES>
         <JAVADOC />
-        <SOURCES />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../Public/Java/spring-framework-2.5.6/src" />
+        </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
@@ -662,7 +674,9 @@
           <root url="jar://$MODULE_DIR$/lib/war/spring-webmvc-2.5.6.jar!/" />
         </CLASSES>
         <JAVADOC />
-        <SOURCES />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../Public/Java/spring-framework-2.5.6/src" />
+        </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
@@ -698,7 +712,9 @@
           <root url="jar://$MODULE_DIR$/lib/war/spring-aop-2.5.6.jar!/" />
         </CLASSES>
         <JAVADOC />
-        <SOURCES />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../Public/Java/spring-framework-2.5.6/src" />
+        </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
@@ -739,6 +755,7 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="Spring Framework" level="application" />
   </component>
 </module>
 

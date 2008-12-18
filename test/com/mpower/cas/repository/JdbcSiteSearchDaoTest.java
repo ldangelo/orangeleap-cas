@@ -12,7 +12,7 @@ import static org.junit.Assert.*;
  */
 public class JdbcSiteSearchDaoTest {
 
-private SiteSearchDao dao = null;
+    private SiteSearchDao dao = null;
 
 
     @Before

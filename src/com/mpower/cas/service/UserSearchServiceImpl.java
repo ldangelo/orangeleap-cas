@@ -5,6 +5,8 @@ import com.mpower.cas.repository.UserSearchDao;
 
 import java.util.List;
 
+import org.springframework.beans.factory.annotation.Required;
+
 /**
  * Service Impl used for when a freeform search for a user needs to be performed.
  * This implementation depends on a UserSearchDao to check against the repository
@@ -29,7 +31,11 @@ public class UserSearchServiceImpl implements UserSearchService {
 
     }
 
-    /* Injected property */
+    /**
+     *  Injected reference to the UseSearchDao to use
+     *  @param userSearchDao the UserSearchDao ref 
+     */
+    @Required
     public void setUserSearchDao(UserSearchDao userSearchDao) {
         this.userSearchDao = userSearchDao;
     }

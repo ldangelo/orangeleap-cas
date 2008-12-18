@@ -36,6 +36,8 @@ public final class RowMappers {
             user.setFullName(rs.getString("name"));
             user.setEmailAddress(rs.getString("emailaddress"));
             user.setPasswordChangeDate(rs.getDate("pwdchangedt"));
+            user.setPassword(rs.getString("password"));
+            user.setPriorPassword(rs.getString("previouspwd"));
             user.setLastLogin(rs.getDate("lastlogin"));
             user.setLoginAttempts(rs.getInt("failedattempts"));
             user.setLockedDate(rs.getDate("lockeddttm"));

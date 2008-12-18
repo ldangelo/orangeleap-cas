@@ -1,55 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project relativePaths="false" version="4">
   <component name="ChangeListManager">
-    <list default="true" readonly="true" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/navGradientBoth.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/view/jsp/orange/ui/includes/bottom.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/view/jsp/protocol/2.0/casProxySuccessView.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/view/jsp/orange/ui/casLogoutView.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tang.ipr" afterPath="$PROJECT_DIR$/Tang.ipr" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/view/jsp/services/logout.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/view/jsp/orange/ui/serviceErrorView.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/view/jsp/orange/ui/casLoginView.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/view/jsp/services/includes" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/login.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/view/jsp/orange/ui" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/view/jsp/protocol/openid/casOpenIdServiceFailureView.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/view/jsp/protocol" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tang.iml" afterPath="$PROJECT_DIR$/Tang.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/view/jsp/orange/ui/casConfirmView.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/leftOrange.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/view/jsp/protocol/2.0/casServiceValidationFailure.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/master.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/view/jsp/orange" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/view/jsp/protocol/2.0/casServiceValidationSuccess.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/view/jsp/default/ui/serviceErrorView.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/view/jsp/services/manage.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/view/jsp/orange/ui/serviceErrorSsoView.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/view/jsp/services" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/view/jsp/orange/ui/includes/top.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/view/jsp/orange/ui/includes" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/view/jsp/protocol/2.0/casProxyFailureView.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/view/jsp/protocol/openid/casOpenIdServiceSuccessView.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/view/jsp/protocol/openid/user.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/view/jsp/protocol/openid" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/view/jsp/errors.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/rightOrange.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/view/jsp/orange/ui/casGenericSuccess.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/forms.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/mpowerLogo.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/view/jsp/services/includes/top.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/view/jsp/services/includes/bottom.jsp" />
+    <list default="true" readonly="true" name="Default" comment="TANG-14 Unit tests for UserSearchDao and SiteSearchDao">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/messages.properties" afterPath="$PROJECT_DIR$/src/messages.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mpower/cas/repository/RowMappers.java" afterPath="$PROJECT_DIR$/src/com/mpower/cas/repository/RowMappers.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tang.iws" afterPath="$PROJECT_DIR$/Tang.iws" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/screen.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/view/jsp/services/add.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/view/jsp/default/ui/serviceErrorSsoView.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/view/jsp/protocol/2.0" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/navGradientOrange2.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/view/jsp/protocol/casPostResponseView.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mpower/cas/service/UserSearchServiceImpl.java" afterPath="$PROJECT_DIR$/src/com/mpower/cas/service/UserSearchServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mpower/cas/repository/UserDao.java" afterPath="$PROJECT_DIR$/src/com/mpower/cas/repository/UserDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/springConfig.xml" afterPath="$PROJECT_DIR$/test/springConfig.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mpower/cas/service/PasswordExpiredAuthenticationException.java" afterPath="$PROJECT_DIR$/src/com/mpower/cas/service/PasswordExpiredAuthenticationException.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mpower/cas/service/UserService.java" afterPath="$PROJECT_DIR$/src/com/mpower/cas/service/UserService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/com/mpower/cas/repository/JdbcUserDaoTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/mpower/cas/repository/JdbcSiteSearchDaoTest.java" afterPath="$PROJECT_DIR$/test/com/mpower/cas/repository/JdbcSiteSearchDaoTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mpower/cas/service/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/com/mpower/cas/service/UserServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mpower/cas/service/SiteSearchServiceImpl.java" afterPath="$PROJECT_DIR$/src/com/mpower/cas/service/SiteSearchServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mpower/cas/domain/User.java" afterPath="$PROJECT_DIR$/src/com/mpower/cas/domain/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tang.iml" afterPath="$PROJECT_DIR$/Tang.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mpower/cas/repository/JdbcUserDao.java" />
     </list>
     <ignored path="Tang.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -108,10 +75,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="UserDao.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/mpower/cas/repository/UserDao.java">
+      <file leaf-file-name="setup.sql" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/setup.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="48" selection-start="499" selection-end="499" vertical-scroll-proportion="0.59859157">
+            <state line="64" column="14" selection-start="2654" selection-end="2654" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserServiceImpl.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/mpower/cas/service/UserServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="46" column="13" selection-start="1520" selection-end="1520" vertical-scroll-proportion="1.3752809">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="messages.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/messages.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="108" selection-start="2422" selection-end="2422" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -201,6 +186,62 @@
           <option name="myItemId" value="cas-server-core-3.3.1.jar" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="cas" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="authentication" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Tang" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Tang" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Libraries" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.LibraryGroupNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="cas-server-core-3.3.1.jar" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="cas" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="authentication" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="handler" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Tang" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Tang" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Libraries" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.LibraryGroupNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="cas-server-core-3.3.1.jar" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
       </PATH>
       <PATH>
         <PATH_ELEMENT>
@@ -253,28 +294,6 @@
         </PATH_ELEMENT>
         <PATH_ELEMENT>
           <option name="myItemId" value="WEB-INF" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Tang" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Tang" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Tang" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="web" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="META-INF" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -350,7 +369,15 @@
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="lib" />
+          <option name="myItemId" value="src" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="cas" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="service" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -368,11 +395,15 @@
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="lib" />
+          <option name="myItemId" value="src" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="test" />
+          <option name="myItemId" value="cas" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="repository" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -390,7 +421,11 @@
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="doc" />
+          <option name="myItemId" value="src" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="cas" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -418,7 +453,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="0.5" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="0.591687" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -467,8 +502,8 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="options.searchVisible" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit.JdbcSiteSearchDaoTest">
-    <tempConfiguration default="false" name="JdbcSiteSearchDaoTest" type="JUnit" factoryName="JUnit" enabled="false" merge="false" runner="emma">
+  <component name="RunManager" selected="JUnit.JdbcUserDaoTest">
+    <tempConfiguration default="false" name="JdbcUserDaoTest" type="JUnit" factoryName="JUnit" enabled="false" merge="false" runner="emma">
       <pattern>
         <option name="PATTERN" value="com.mpower.cas.repository.*" />
         <option name="ENABLED" value="true" />
@@ -477,7 +512,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.mpower.cas.repository" />
-      <option name="MAIN_CLASS_NAME" value="com.mpower.cas.repository.JdbcSiteSearchDaoTest" />
+      <option name="MAIN_CLASS_NAME" value="com.mpower.cas.repository.JdbcUserDaoTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
@@ -574,7 +609,7 @@
       <envs />
     </configuration>
     <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.JdbcSiteSearchDaoTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.JdbcUserDaoTest" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -585,7 +620,7 @@
   <component name="StructureViewFactory">
     <option name="AUTOSCROLL_MODE" value="true" />
     <option name="AUTOSCROLL_FROM_SOURCE" value="false" />
-    <option name="ACTIVE_ACTIONS" value="" />
+    <option name="ACTIVE_ACTIONS" value="SHOW_INHERITED,ALPHA_COMPARATOR" />
   </component>
   <component name="SvnConfiguration">
     <option name="USER" value="" />
@@ -622,7 +657,8 @@
     <frame x="-8" y="-8" width="1456" height="886" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32880434" sideWeight="0.5" order="7" side_tool="false" />
+      <window_info id="Atlassian " active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32744566" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295129" sideWeight="0.5" order="3" side_tool="false" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" />
@@ -630,22 +666,22 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39945653" sideWeight="0.5" order="3" side_tool="false" />
       <window_info id="Dataflow to this" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32849604" sideWeight="0.5" order="7" side_tool="false" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16332377" sideWeight="0.6622691" order="3" side_tool="false" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16260745" sideWeight="0.6622691" order="3" side_tool="false" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32880434" sideWeight="0.5" order="7" side_tool="false" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32880434" sideWeight="0.5" order="7" side_tool="false" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32777777" sideWeight="0.5" order="7" side_tool="false" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32880434" sideWeight="0.5" order="6" side_tool="false" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23997134" sideWeight="0.6616848" order="0" side_tool="false" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3144699" sideWeight="0.6630435" order="0" side_tool="false" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
-      <window_info id="Web Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
+      <window_info id="Web Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32880434" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32880434" sideWeight="0.5" order="2" side_tool="false" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32777777" sideWeight="0.5" order="2" side_tool="false" />
       <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32880434" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" />
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
@@ -688,117 +724,247 @@
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
+  <component name="atlassian-ide-plugin-workspace">
+    <option name="bambooConfiguration">
+      <BambooProjectConfiguration>
+        <option name="tableConfiguration">
+          <ProjectToolWindowTableConfiguration />
+        </option>
+      </BambooProjectConfiguration>
+    </option>
+    <option name="crucibleConfiguration">
+      <CrucibleProjectConfiguration>
+        <option name="crucibleFilters">
+          <CrucibleFiltersBean>
+            <option name="manualFilter">
+              <CustomFilterBean>
+                <option name="serverUid" value="9ed79f64-be5e-45b2-ad98-89ff4863e461" />
+              </CustomFilterBean>
+            </option>
+            <option name="predefinedFilters">
+              <array>
+                <option value="true" />
+                <option value="false" />
+                <option value="false" />
+                <option value="true" />
+                <option value="false" />
+                <option value="false" />
+                <option value="false" />
+                <option value="false" />
+              </array>
+            </option>
+            <option name="readStored" value="true" />
+          </CrucibleFiltersBean>
+        </option>
+        <option name="tableConfiguration">
+          <ProjectToolWindowTableConfiguration />
+        </option>
+        <option name="view">
+          <CrucibleViewConfigurationBean />
+        </option>
+      </CrucibleProjectConfiguration>
+    </option>
+  </component>
+  <component name="atlassian-ide-plugin-workspace-issues">
+    <option name="filters">
+      <map>
+        <entry key="2d279df6-4465-4c3c-994c-020d40ec9df6">
+          <value>
+            <JiraFilterConfigurationBean>
+              <option name="manualFilter">
+                <map>
+                  <entry key="manualFilter">
+                    <value>
+                      <list>
+                        <JiraFilterEntryBean>
+                          <option name="filterEntry">
+                            <map>
+                              <entry key="description" value="Tang is the customized CAS/Single Sign-On solution used by the other systems for user authentication." />
+                              <entry key="filterTypeClass" value="com.atlassian.theplugin.jira.api.JIRAProjectBean" />
+                              <entry key="id" value="10010" />
+                              <entry key="key" value="TANG" />
+                              <entry key="lead" value="tsporcic" />
+                              <entry key="name" value="Tang" />
+                              <entry key="url" value="http://mpowercentral.mpoweropen.com/jira/browse/TANG" />
+                            </map>
+                          </option>
+                        </JiraFilterEntryBean>
+                        <JiraFilterEntryBean>
+                          <option name="filterEntry">
+                            <map>
+                              <entry key="filterTypeClass" value="com.atlassian.theplugin.jira.api.JIRAIssueTypeBean" />
+                              <entry key="id" value="-1000" />
+                              <entry key="name" value="Any" />
+                            </map>
+                          </option>
+                        </JiraFilterEntryBean>
+                        <JiraFilterEntryBean>
+                          <option name="filterEntry">
+                            <map>
+                              <entry key="filterTypeClass" value="com.atlassian.theplugin.jira.api.JIRAStatusBean" />
+                              <entry key="icon" value="http://mpowercentral.mpoweropen.com/jira/images/icons/status_open.gif" />
+                              <entry key="id" value="1" />
+                              <entry key="name" value="Open" />
+                            </map>
+                          </option>
+                        </JiraFilterEntryBean>
+                        <JiraFilterEntryBean>
+                          <option name="filterEntry">
+                            <map>
+                              <entry key="filterTypeClass" value="com.atlassian.theplugin.jira.api.JIRAStatusBean" />
+                              <entry key="icon" value="http://mpowercentral.mpoweropen.com/jira/images/icons/status_inprogress.gif" />
+                              <entry key="id" value="3" />
+                              <entry key="name" value="In Progress" />
+                            </map>
+                          </option>
+                        </JiraFilterEntryBean>
+                        <JiraFilterEntryBean>
+                          <option name="filterEntry">
+                            <map>
+                              <entry key="filterTypeClass" value="com.atlassian.theplugin.jira.api.JIRAAssigneeBean" />
+                              <entry key="id" value="-1000" />
+                              <entry key="name" value="Any User" />
+                              <entry key="value" value="" />
+                            </map>
+                          </option>
+                        </JiraFilterEntryBean>
+                        <JiraFilterEntryBean>
+                          <option name="filterEntry">
+                            <map>
+                              <entry key="filterTypeClass" value="com.atlassian.theplugin.jira.api.JIRAReporterBean" />
+                              <entry key="id" value="-1000" />
+                              <entry key="name" value="Any User" />
+                              <entry key="value" value="null" />
+                            </map>
+                          </option>
+                        </JiraFilterEntryBean>
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </JiraFilterConfigurationBean>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="view">
+      <JiraViewConfigurationBean>
+        <option name="groupBy" value="Project" />
+        <option name="viewFilterId" value="manualFilter" />
+        <option name="viewServerId" value="2d279df6-4465-4c3c-994c-020d40ec9df6" />
+      </JiraViewConfigurationBean>
+    </option>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/mpower/cas/service/UserSearchService.java">
+    <entry file="file://C:/Users/Public/Java/cas-server-3.3.1/cas-server-core/src/main/java/org/jasig/cas/authentication/handler/AuthenticationException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0">
+        <state line="16" column="22" selection-start="591" selection-end="591" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mpower/cas/service/SiteSearchServiceImpl.java">
+    <entry file="file://C:/Users/Public/Java/cas-server-3.3.1/cas-server-core/src/main/java/org/jasig/cas/authentication/handler/BadCredentialsAuthenticationException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="542" selection-end="542" vertical-scroll-proportion="0.4170274">
+        <state line="39" column="11" selection-start="1465" selection-end="1465" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mpower/cas/service/SiteSearchService.java">
+    <entry file="file://C:/Users/Public/Java/cas-server-3.3.1/cas-server-core/src/main/java/org/jasig/cas/authentication/handler/BadUsernameOrPasswordAuthenticationException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="5" selection-start="93" selection-end="462" vertical-scroll-proportion="0.0">
+        <state line="16" column="26" selection-start="587" selection-end="587" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mpower/cas/service/UserSearchServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/com/mpower/cas/service/PasswordExpiredAuthenticationException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="34" selection-start="831" selection-end="831" vertical-scroll-proportion="0.0">
+        <state line="18" column="80" selection-start="751" selection-end="791" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/setup.sql">
+    <entry file="file://C:/Users/Public/Java/cas-server-3.3.1/cas-server-core/src/main/java/org/jasig/cas/authentication/handler/BadPasswordAuthenticationException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="27" selection-start="1886" selection-end="2102" vertical-scroll-proportion="0.0">
+        <state line="25" column="104" selection-start="979" selection-end="1043" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mpower/cas/domain/User.java">
+    <entry file="file://C:/Users/Public/Java/cas-server-3.3.1/cas-server-core/src/main/java/org/jasig/cas/authentication/handler/BlockedCredentialsAuthenticationException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="128" column="82" selection-start="3065" selection-end="3065" vertical-scroll-proportion="0.0">
+        <state line="25" column="84" selection-start="775" selection-end="1040" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/testdata.sql">
+    <entry file="file://C:/Users/Public/Java/cas-server-3.3.1/cas-server-core/src/main/java/org/jasig/cas/authentication/handler/UncategorizedAuthenticationException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="113" selection-start="700" selection-end="813" vertical-scroll-proportion="0.536036">
+        <state line="15" column="22" selection-start="491" selection-end="491" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mpower/cas/repository/JdbcUserSearchDao.java">
+    <entry file="file://$PROJECT_DIR$/src/messages.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="58" selection-start="1185" selection-end="1185" vertical-scroll-proportion="0.42535213">
+        <state line="35" column="108" selection-start="2422" selection-end="2422" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/mpower/cas/repository/JdbcUserSearchDaoTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/mpower/cas/repository/JdbcUserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="36" selection-end="58" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/mpower/cas/repository/JdbcSiteSearchDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="9" selection-start="744" selection-end="744" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mpower/cas/repository/JdbcSiteSearchDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="60" selection-start="2053" selection-end="2053" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mpower/cas/repository/SiteSearchDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="30" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/springConfig.xml">
-      <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="44" selection-start="1101" selection-end="1101" vertical-scroll-proportion="-4.4347825">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mpower/cas/repository/JdbcAuditDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="40" selection-start="1329" selection-end="1329" vertical-scroll-proportion="0.52394366">
+        <state line="164" column="45" selection-start="6026" selection-end="6026" vertical-scroll-proportion="0.7186147">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mpower/cas/repository/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="48" selection-start="499" selection-end="499" vertical-scroll-proportion="0.59859157">
+        <state line="8" column="17" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mpower/cas/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="0" selection-start="1973" selection-end="1973" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/cas.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/setup.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="14" selection-start="2654" selection-end="2654" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mpower/cas/service/UserSearchServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="50" selection-start="1033" selection-end="1033" vertical-scroll-proportion="0.7183099">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mpower/cas/service/SiteSearchServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="13" selection-start="517" selection-end="517" vertical-scroll-proportion="0.35915494">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mpower/cas/service/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="13" selection-start="1520" selection-end="1520" vertical-scroll-proportion="1.3752809">
           <folding />
         </state>
       </provider>

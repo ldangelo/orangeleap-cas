@@ -41,5 +41,7 @@
         </property>
     </bean>
 
+    <bean id="userDao" class="com.mpower.cas.repository.JdbcUserDao" p:dataSource-ref="dataSource"/>
+
 
 </beans>

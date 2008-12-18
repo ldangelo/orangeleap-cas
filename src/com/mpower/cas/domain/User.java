@@ -1,6 +1,7 @@
 package com.mpower.cas.domain;
 
 import java.util.Date;
+import java.io.Serializable;
 
 /**
  * The user represents two concepts. The first is someone who will
@@ -11,15 +12,19 @@ import java.util.Date;
  * boolean flag on the User for now.
  * @version 1.0
  */
-public class User {
+public class User implements Serializable {
 
-    private int id;    
+    // we'll use a default value of -1 to indicate a new user that is not
+    // in the database
+    private int id = -1;
     private String loginName;  // the short name used to login to the system
     private String fullName;
     private String emailAddress;
     private Date lastLogin;
-    private int loginAttempts;
+    private int loginAttempts = 0;
     private Date passwordChangeDate;
+    private String password; // Base64 HASH value - not clear text
+    private String priorPassword;
     private String resetCode;
     private int siteId;
     private Date lockedDate;
@@ -88,6 +93,26 @@ public class User {
 
     public void setPasswordChangeDate(Date passwordChangeDate) {
         this.passwordChangeDate = passwordChangeDate;
+    }
+
+    /**
+     * HASH value of the password, not the clear text
+     * @return
+     */
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public String getPriorPassword() {
+        return priorPassword;
+    }
+
+    public void setPriorPassword(String priorPassword) {
+        this.priorPassword = priorPassword;
     }
 
     public String getResetCode() {
