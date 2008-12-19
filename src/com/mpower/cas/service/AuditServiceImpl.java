@@ -12,7 +12,9 @@ public class AuditServiceImpl implements AuditService {
 
     @Override
     public void auditActivity(Activity activity) {
-        auditDao.saveActivity(activity);
+
+        // No-op for now
+        //auditDao.saveActivity(activity);
     }
 
     public void setAuditDao(AuditDao dao) {

@@ -250,7 +250,7 @@ public class UserServiceImpl implements UserService{
                     "security requirements. Please try again.");
         }
 
-        userDao.setCurrentPassword(user, newPassword);
+        userDao.setCurrentPassword(user, passwordEncoder.encodePassword(newPassword, null));
         // unlock the account too, now that password is reset
         user.setLocked(false);
         userDao.setLockedOut(user);
@@ -306,6 +306,8 @@ public class UserServiceImpl implements UserService{
         if(age >= passwordValidityDays) {
             throw PasswordExpiredAuthenticationException.ERROR;
         }
+
+        userDao.successfulLogin(user);
 
         //TODO: add audit information to authentication process
         return user;

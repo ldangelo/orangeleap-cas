@@ -166,7 +166,7 @@ public class JdbcUserDao extends SimpleJdbcDaoSupport implements UserDao {
             user.setResetCode(null);
         }
 
-        template.update("UPDATE users SET locked=?, lockeddtdtm=?, resetcode=? WHERE id=?",
+        template.update("UPDATE users SET locked=?, lockeddttm=?, resetcode=? WHERE id=?",
                 user.isLocked(), user.getLockedDate(), user.getResetCode(), user.getId());
     }
 
@@ -192,7 +192,7 @@ public class JdbcUserDao extends SimpleJdbcDaoSupport implements UserDao {
         SimpleJdbcTemplate template = getSimpleJdbcTemplate();
         String prior = getCurrentPassword(user);
         Date changeDate = new Date();
-        template.update("UPDATE users SET password=?, previouspwd=?, pwdchangdt=? WHERE id=?",
+        template.update("UPDATE users SET password=?, previouspwd=?, pwdchangedt=? WHERE id=?",
                 password, prior, changeDate, user.getId());
         user.setPriorPassword(prior);
         user.setPassword(password);
@@ -225,7 +225,7 @@ public class JdbcUserDao extends SimpleJdbcDaoSupport implements UserDao {
     public void successfulLogin(User user) {
         SimpleJdbcTemplate template = getSimpleJdbcTemplate();
         Date login = new Date();
-        template.update("UPDATE users SET lastlogin = ? WHERE id=?", login, user.getId());
+        template.update("UPDATE users SET lastlogin = ?, failedattempts=0 WHERE id=?", login, user.getId());
         user.setLastLogin(login);
     }
 

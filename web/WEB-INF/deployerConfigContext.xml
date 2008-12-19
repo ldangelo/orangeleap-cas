@@ -17,8 +17,29 @@
        xmlns:p="http://www.springframework.org/schema/p"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd">
 	
-	<!-- DataSource to use for the JDBC credential store -->
-	<bean id="dataSource" class="org.springframework.jndi.JndiObjectFactoryBean" p:jndiName="java:comp/env/jdbc/CAS"/>
+	<!-- Beans user for the MPower customization of the Auth Hander -->
+
+    <bean id="dataSource" class="org.springframework.jndi.JndiObjectFactoryBean" p:jndiName="java:comp/env/jdbc/CAS"/>
+    <bean id="userDao" class="com.mpower.cas.repository.JdbcUserDao" p:dataSource-ref="dataSource"/>
+    <bean id="auditService" class="com.mpower.cas.service.AuditServiceImpl"/>
+    <bean id="passwordPolicy" class="com.mpower.cas.service.OpenSecurityPolicy"/>
+    <bean id="userSearchDao" class="com.mpower.cas.repository.JdbcUserSearchDao" p:dataSource-ref="dataSource">
+        <property name="columnNames">
+            <list>
+                <value>loginid</value>
+                <value>name</value>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="userSearchService" class="com.mpower.cas.service.UserSearchServiceImpl" p:userSearchDao-ref="userSearchDao"/>
+
+    <bean id="userService" class="com.mpower.cas.service.UserServiceImpl"
+          p:auditService-ref="auditService"
+          p:passwordPolicy-ref="passwordPolicy"
+          p:userDao-ref="userDao"
+          p:searchService-ref="userSearchService"
+          p:passwordValidityDays="5"/>
 	
 	<!--
 		| This bean declares our AuthenticationManager.  The CentralAuthenticationService service bean
@@ -92,7 +113,7 @@
 					| edu.someschool.its.cas.MySpecialHandler here, or you might use one of the handlers provided in the adaptors modules.
 					+-->
 				<bean
-					class="org.jasig.cas.adaptors.jdbc.QueryDatabaseAuthenticationHandler" p:dataSource-ref="dataSource" p:sql="select password from users where loginid=?" />
+					class="com.mpower.cas.service.MpowerUsernamePasswordAuthenticationHandler" p:userService-ref="userService"/>
 			</list>
 		</property>
 	</bean>

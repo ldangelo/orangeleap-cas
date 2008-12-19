@@ -13,6 +13,17 @@
     <link href="${resources}/stylesheets/login.css" rel="stylesheet" type="text/css"/>
     <link rel="shortcut icon" type="image/ico" href="${resources}/images/favicon.ico"/>
     <script type="text/javascript" src="${resources}/javascripts/jquery.js"></script>
+    <script type="text/javascript" src="${resources}/javascripts/effects.core.js"></script>
+    <script type="text/javascript" src="${resources}/javascripts/effects.pulsate.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            // a little bling for the error message
+            $("#status").hide().effect("pulsate",{times: 3},700).show();
+        });
+
+    </script>
+
 </head>
 <body>
 <div class="loginPane">
@@ -48,7 +59,7 @@
                         <input class="btn-submit" name="submit" accesskey="l"
                                value="<spring:message code="screen.welcome.button.login" />" tabindex="4"
                                type="submit"/>
-                        <input class="btn-reset" name="reset" accesskey="c"
+                        <input id="formReset" class="btn-reset" name="reset" accesskey="c"
                                value="<spring:message code="screen.welcome.button.clear" />" tabindex="5" type="reset"/>
                     </td>
                 </tr>

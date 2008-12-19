@@ -28,17 +28,17 @@ public class JdbcUserDaoTest {
         dao = (JdbcUserDao) ctx.getBean("userDao");
     }
 
-    @Test
+
     public void createUser() {
 
         User user = new User();
-        user.setLoginName("sample");
-        user.setFullName("Sample User");
+        user.setLoginName("tim");
+        user.setFullName("Tim Sporcic");
         user.setSiteId(1);
         user.setActive(true);
-        user.setSiteAdmin(false);
-        user.setEmailAddress("sample@hotmail.com");
-
+        user.setSiteAdmin(true);
+        user.setEmailAddress("tim@mpoweropen.com");
+        
         dao.saveUser(user);
 
         assertTrue(user.getId() > -1);
@@ -48,10 +48,23 @@ public class JdbcUserDaoTest {
 
         System.out.println("Reset Code: " + user.getResetCode());
 
-        dao.getSimpleJdbcTemplate().update("delete from users where id = ?", user.getId());
+        //dao.getSimpleJdbcTemplate().update("delete from users where id = ?", user.getId());
 
 
     }
+
+    @Test
+    public void resetUser() {
+        User user = dao.getUser(5);
+        user.setLocked(true);
+        dao.setLockedOut(user);
+
+
+    }
+
+
+
+
 
     @Test
     public void getUserTest() {

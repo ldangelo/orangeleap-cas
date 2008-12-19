@@ -50,58 +50,11 @@ h5 {
 fieldset {
 	border: 1px solid #bbb;
 }
-/*a:link, a:visited, a:active {
-  color: #00f;
-  text-decoration: underline;
-}
-a:hover {
-  background-color: #00f;
-  color: #fff;
-  text-decoration: none;
-}*/
+
 .clearBoth {
 	clear: both;
 }
-.col60 {
-	width: 60%;
-	margin-top: 18px;
-}
-.columns {
-	padding: 0;
-	margin: 0;
-	clear: both;
-}
 
-.column {
-	float: left;
-	display: inline;
-	padding: 0;
-	margin: 0;
-}
-.columnRight {
-	float: right;
-	display: inline;
-	padding: 0;
-	margin: 0;
-}
-
-.clearColumns {
-	clear: both;
-	height:1px;
-	font-size: 1px;
-	line-height: 1px;
-	min-height: 1px;
-}
-
-.clearFloat {
-	clear: both;
-	height: 0;
-	font-size: 1px;
-	line-height: 0px;
-}
-.positionRelative {
-	position:relative;
-}
 .loginPane {
 	background: #fff url("../images/signInBox.gif") no-repeat center top;
 	width:581px;
@@ -139,11 +92,6 @@ table.loginInfo {
 	font-size:14px;
 	color:#444;
 }
-.loginField {
-	padding:3px;
-	height:24px;
-	margin:0;
-}
 
 tr.buttonBar td {
     padding-top: 10px;
@@ -158,10 +106,45 @@ p.welcomeMessage {
     color: #666;
 }
 
-
 /* From the CAS Stylesheet */
 .info {border:1px dotted 008;    background:#eff url(../images/info.gif) no-repeat 20px 18px; color:#008;}
-.errors {border:1px dotted #d21033; background:#fed url(../images/error.gif) no-repeat 20px 18px; color:#d21033; padding-bottom: 40px;}
-.success {border:1px dotted #390; background:#dfa url(../images/confirm.gif) no-repeat 20px 18px; color:#390;}
+
+div.errors {
+    background: #fed url(../images/error.gif) no-repeat 5px 5px;
+    border:1px dotted #d21033;
+    height: 58px;
+    color:#d21033;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 48px;
+    vertical-align: middle;
+	font-weight: normal;
+	padding: 0 20px 0px 30px;
+    margin:0 15px;
+}
+
+div.success {
+    border:1px dotted #390;
+    background:#dfa url(../images/confirm.gif) no-repeat 5px 5px;
+    color:#390;
+    margin: 30px 15px 15px 15px;
+
+}
+
+div.success .header {
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 48px;
+    vertical-align: middle;
+	font-weight: bold;
+	padding: 0 20px 20px 20px;
+}
+
+
+
+
+
+
+.success {;}
 .required {background:#ffd;}
 .error {background:#ffefef;}
