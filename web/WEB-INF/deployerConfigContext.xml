@@ -92,7 +92,7 @@
 					| edu.someschool.its.cas.MySpecialHandler here, or you might use one of the handlers provided in the adaptors modules.
 					+-->
 				<bean
-					class="org.jasig.cas.adaptors.jdbc.QueryDatabaseAuthenticationHandler" p:dataSource-ref="dataSource" p:sql="select password from users where name=?" />
+					class="org.jasig.cas.adaptors.jdbc.QueryDatabaseAuthenticationHandler" p:dataSource-ref="dataSource" p:sql="select password from users where loginid=?" />
 			</list>
 		</property>
 	</bean>

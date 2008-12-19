@@ -1,10 +1,22 @@
-		</div>
-	    <div id="footer">
-	        <div>
-	            <p>Copyright &copy; 2005-2007 JA-SIG. All rights reserved.</p>
-	            <p>Powered by <a href="http://www.ja-sig.org/products/cas/">JA-SIG Central Authentication Service <%=org.jasig.cas.CasVersion.getVersion()%></a></p>
-	        </div>
-	        <a href="http://www.ja-sig.org" title="go to JA-SIG home page"><img id="logo" src="images/ja-sig-logo.gif" width="118" height="31" alt="JA-SIG" title="go to JA-SIG home page" /></a>
-	    </div>
+        <!-- close the .contentFull div -->
+        </div>
+
+        <div class="clearBoth"></div>
+
+        <div id="footer">
+            <div class="container">
+                <p style="margin-bottom:0" class="legal">
+                    Last login Monday, December 1st, 2008
+                </p>
+
+                <p class="legal">
+                    (800) 562-5150 | &#169; Copyright 2008 MPower Open. All Rights Reserved. |
+                    <a href="#">Admin</a>
+                </p>
+            </div>
+        </div>
+
+        <!-- close the .bodyContent div -->
+        </div>
 	</body>
 </html>

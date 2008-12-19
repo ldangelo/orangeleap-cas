@@ -1,71 +1,67 @@
+<%@ page trimDirectiveWhitespaces="true" session="true" pageEncoding="utf-8" %>
 <%@ page contentType="text/html; charset=UTF-8" %>
-<jsp:directive.include file="includes/top.jsp" />
-			<form:form method="post" id="fm1" cssClass="fm-v clearfix" commandName="${commandName}" htmlEscape="true">
-			    <form:errors path="*" cssClass="errors" id="status" element="div" />
-                <div class="box" id="login">
-                <!-- <spring:message code="screen.welcome.welcome" /> -->
-                    <h2><spring:message code="screen.welcome.instructions" /></h2>
-                    <div class="row">
-                        <label for="username"><spring:message code="screen.welcome.label.netid" /></label>
-						<c:if test="${not empty sessionScope.openIdLocalId}">
-						<strong>${sessionScope.openIdLocalId}</strong>
-						<input type="hidden" id="username" name="username" value="${sessionScope.openIdLocalId}" />
-						</c:if>
-						
-						<c:if test="${empty sessionScope.openIdLocalId}">
-						<spring:message code="screen.welcome.label.netid.accesskey" var="userNameAccessKey" />
-						<form:input cssClass="required" cssErrorClass="error" id="username" size="25" tabindex="1" accesskey="${userNameAccessKey}" path="username" autocomplete="false" htmlEscape="true" />
-						</c:if>
-                    </div>
-                    <div class="row">
-                        <label for="password"><spring:message code="screen.welcome.label.password" /></label>
-						<%--
-						NOTE: Certain browsers will offer the option of caching passwords for a user.  There is a non-standard attribute,
-						"autocomplete" that when set to "off" will tell certain browsers not to prompt to cache credentials.  For more
-						information, see the following web page:
-						http://www.geocities.com/technofundo/tech/web/ie_autocomplete.html
-						--%>
-						<spring:message code="screen.welcome.label.password.accesskey" var="passwordAccessKey" />
-						<form:password cssClass="required" cssErrorClass="error" id="password" size="25" tabindex="2" path="password"  accesskey="${passwordAccessKey}" htmlEscape="true" autocomplete="off" />
-                    </div>
-                    <div class="row check">
-                        <input id="warn" name="warn" value="true" tabindex="3" accesskey="<spring:message code="screen.welcome.label.warn.accesskey" />" type="checkbox" />
-                        <label for="warn"><spring:message code="screen.welcome.label.warn" /></label>
-                    </div>
-                    <div class="row btn-row">
-						<input type="hidden" name="lt" value="${flowExecutionKey}" />
-						<input type="hidden" name="_eventId" value="submit" />
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 
-                        <input class="btn-submit" name="submit" accesskey="l" value="<spring:message code="screen.welcome.button.login" />" tabindex="4" type="submit" />
-                        <input class="btn-reset" name="reset" accesskey="c" value="<spring:message code="screen.welcome.button.clear" />" tabindex="5" type="reset" />
-                    </div>
-                </div>
-               
-	            <div id="sidebar">
-	                <p><spring:message code="screen.welcome.security" /></p>
-	                <div id="list-languages">
-	                <%final String queryString = request.getQueryString() == null ? "" : request.getQueryString().replaceAll("&locale=([A-Za-z][A-Za-z]_)?[A-Za-z][A-Za-z]|^locale=([A-Za-z][A-Za-z]_)?[A-Za-z][A-Za-z]", "");%>
-						<c:set var='query' value='<%=queryString%>' />
-						<c:set var="loginUrl" value="login?${query}${not empty query ? '&' : ''}locale=" />
-	                    <h3>Languages:</h3>
-						<ul
-							><li class="first"><a href="login?${query}${not empty query ? '&' : ''}locale=en">English</a></li
-							><li><a href="${loginUrl}es">Spanish</a></li				
-							><li><a href="${loginUrl}fr">French</a></li
-							><li><a href="${loginUrl}ru">Russian</a></li
-							><li><a href="${loginUrl}nl">Nederlands</a></li
-							><li><a href="${loginUrl}sv">Svenskt</a></li
-							><li><a href="${loginUrl}it">Italiano</a></li
-							><li><a href="${loginUrl}ur">Urdu</a></li
-							><li><a href="${loginUrl}zh_CN">Chinese (Simplified)</a></li
-							><li><a href="${loginUrl}de">Deutsch</a></li
-							><li><a href="${loginUrl}ja">Japanese</a></li
-							><li><a href="${loginUrl}hr">Croatian</a></li
-							><li><a href="${loginUrl}cs">Czech</a></li
-							><li><a href="${loginUrl}sl">Slovenian</a></li
-							><li class="last"><a href="${loginUrl}pl">Polish</a></li
-						></ul>
-	                </div>
-	            </div>
-        	</form:form>
-<jsp:directive.include file="includes/bottom.jsp" />
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>MPower Login</title>
+    <c:url value="/resources" var="resources"/>
+    <link href="${resources}/stylesheets/login.css" rel="stylesheet" type="text/css"/>
+    <link rel="shortcut icon" type="image/ico" href="${resources}/images/favicon.ico"/>
+    <script type="text/javascript" src="${resources}/javascripts/jquery.js"></script>
+</head>
+<body>
+<div class="loginPane">
+    <div class="loginContent">
+        <img alt="MPower Logo" src="${resources}/images/mpowerLogo.gif"/>
+
+        <h1 class="loginHeader">Please sign in.</h1>
+
+        <form:form method="post" id="fm1" cssClass="fm-v clearfix" commandName="${commandName}" htmlEscape="true">
+            <form:errors path="*" cssClass="errors" id="status" element="div"/>
+            <table class="loginInfo">
+                <tr>
+                    <td style="text-align:right"><label for="username"><spring:message
+                            code="screen.welcome.label.netid"/></label></td>
+                    <td><form:input cssClass="required" cssErrorClass="error" id="username" size="25" tabindex="1"
+                                    accesskey="${userNameAccessKey}" path="username" autocomplete="false"
+                                    htmlEscape="true"/></td>
+                </tr>
+                <tr>
+                    <td style="text-align:right"><label for="password"><spring:message
+                            code="screen.welcome.label.password"/></label></td>
+                    <td><spring:message code="screen.welcome.label.password.accesskey" var="passwordAccessKey"/>
+                        <form:password cssClass="required" cssErrorClass="error" id="password" size="25" tabindex="2"
+                                       path="password" accesskey="${passwordAccessKey}" htmlEscape="true"
+                                       autocomplete="off"/></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="hidden" name="lt" value="${flowExecutionKey}"/>
+                        <input type="hidden" name="_eventId" value="submit"/>
+
+                        <input class="btn-submit" name="submit" accesskey="l"
+                               value="<spring:message code="screen.welcome.button.login" />" tabindex="4"
+                               type="submit"/>
+                        <input class="btn-reset" name="reset" accesskey="c"
+                               value="<spring:message code="screen.welcome.button.clear" />" tabindex="5" type="reset"/>
+                    </td>
+                </tr>
+                <tr class="buttonBar">
+                    <td colspan="2"><a href="#">Forgot your password?</a></td>
+                </tr>
+            </table>
+
+            <p class="welcomeMessage"><spring:message code="screen.welcome.security"/></p>
+
+        </form:form>
+
+    </div>
+</div>
+</body>
+</html>
