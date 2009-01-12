@@ -2,23 +2,8 @@
 <project relativePaths="false" version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/view/jsp/orange/ui/casLogoutView.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/view/jsp/orange/ui/casLogoutView.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/view/jsp/orange/ui/casLoginView.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/view/jsp/orange/ui/casLoginView.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/com/mpower/cas/service/JdbcUserServiceTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/messages.properties" afterPath="$PROJECT_DIR$/src/messages.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mpower/cas/service/MpowerUsernamePasswordAuthenticationHandler.java" afterPath="$PROJECT_DIR$/src/com/mpower/cas/service/MpowerUsernamePasswordAuthenticationHandler.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tang.iws" afterPath="$PROJECT_DIR$/Tang.iws" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/com/mpower/cas/service" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/resources/stylesheets/login.css" afterPath="$PROJECT_DIR$/web/resources/stylesheets/login.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/deployerConfigContext.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/deployerConfigContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mpower/cas/service/AuditServiceImpl.java" afterPath="$PROJECT_DIR$/src/com/mpower/cas/service/AuditServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/springConfig.xml" afterPath="$PROJECT_DIR$/test/springConfig.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/javascripts/effects.pulsate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/mpower/cas/repository/JdbcUserDaoTest.java" afterPath="$PROJECT_DIR$/test/com/mpower/cas/repository/JdbcUserDaoTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/javascripts/effects.core.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mpower/cas/service/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/com/mpower/cas/service/UserServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/view/jsp/orange/ui/casGenericSuccess.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/view/jsp/orange/ui/casGenericSuccess.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mpower/cas/repository/JdbcUserDao.java" afterPath="$PROJECT_DIR$/src/com/mpower/cas/repository/JdbcUserDao.java" />
     </list>
     <ignored path="Tang.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -77,28 +62,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DefaultServicesManagerImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://C:/Users/Public/Java/cas-server-3.3.1/cas-server-core/src/main/java/org/jasig/cas/services/DefaultServicesManagerImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="19" selection-start="880" selection-end="880" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
+      <file leaf-file-name="cas-servlet.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/cas-servlet.xml">
+          <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
+            <state />
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="casLoginView.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/jsp/orange/ui/casLoginView.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="51" selection-start="1156" selection-end="1156" vertical-scroll-proportion="-9.458333">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="casGenericSuccess.jsp" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/jsp/orange/ui/casGenericSuccess.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="43" selection-start="1274" selection-end="1274" vertical-scroll-proportion="0.7434402">
+            <state line="218" column="44" selection-start="7958" selection-end="7958" vertical-scroll-proportion="0.43589744">
               <folding />
             </state>
           </provider>
@@ -210,38 +180,6 @@
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
         </PATH_ELEMENT>
       </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Tang" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Tang" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Tang" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Tang" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Tang" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Tang" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="web" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-      </PATH>
     </subPane>
   </component>
   <component name="ProjectReloadState">
@@ -255,7 +193,7 @@
       <showLibraryContents />
       <hideEmptyPackages />
       <abbreviatePackageNames />
-      <showStructure J2EEPane="false" ProjectPane="false" />
+      <showStructure J2EEPane="false" ProjectPane="true" />
       <autoscrollToSource />
       <autoscrollFromSource />
       <sortByType />
@@ -471,8 +409,8 @@
       </method>
     </configuration>
     <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.JdbcUserServiceTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.JdbcUserServiceTest" />
+      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.Tomcat" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -518,7 +456,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="886" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32880434" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32744566" sideWeight="0.5" order="7" side_tool="false" />
@@ -536,7 +474,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26289397" sideWeight="0.6182065" order="0" side_tool="false" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24140401" sideWeight="0.7595109" order="0" side_tool="false" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="Web Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32880434" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" />
@@ -556,7 +494,7 @@
     <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
     <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="TANG-19 Stylized login page to match Tangerine MPower page and added ExtJS library. Removed old css and images folder from web root." />
+    <option name="LAST_COMMIT_MESSAGE" value="Few small tweaks to the UserDao to correct a login problem. Commented out Audit stuff for demo purposes. Added in some JQuery effects for the login page to make the message standout better." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
@@ -577,6 +515,7 @@
     <MESSAGE value="TANG-14 Unit tests for UserSearchDao and SiteSearchDao" />
     <MESSAGE value="TANG-15 TANG-16 Wrapped up most all the UserDao and UserService. Just missing the Audit tracking, which I want to burn more braincells on." />
     <MESSAGE value="TANG-19 Stylized login page to match Tangerine MPower page and added ExtJS library. Removed old css and images folder from web root." />
+    <MESSAGE value="Few small tweaks to the UserDao to correct a login problem. Commented out Audit stuff for demo purposes. Added in some JQuery effects for the login page to make the message standout better." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -722,131 +661,120 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/com/mpower/cas/service/JdbcUserServiceTest.java">
+    <entry file="file://C:/Users/Public/Java/cas-server-3.3.1/cas-server-core/src/main/java/org/jasig/cas/authentication/Authentication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="331" selection-end="331" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/springConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="4" selection-start="1279" selection-end="1279" vertical-scroll-proportion="-8.5">
+        <state line="37" column="0" selection-start="1146" selection-end="1146" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
-        <state />
+    </entry>
+    <entry file="file://C:/Users/Public/Java/cas-server-3.3.1/cas-server-core/src/main/java/org/jasig/cas/validation/ImmutableAssertionImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="50" selection-start="1561" selection-end="1561" vertical-scroll-proportion="0.20118344">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/login-webflow.xml">
-      <provider editor-type-id="com.intellij.spring.webflow.fileEditor.WebflowDesignerFileEditorProvider">
-        <state />
+    <entry file="file://C:/Users/Public/Java/cas-server-3.3.1/cas-server-core/src/main/java/org/jasig/cas/validation/ValidationSpecification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="539" selection-end="539" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
+    </entry>
+    <entry file="file://C:/Users/Public/Java/cas-server-3.3.1/cas-server-core/src/main/java/org/jasig/cas/validation/AbstractCasProtocolValidationSpecification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="14" selection-start="659" selection-end="659" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Users/Public/Java/cas-server-3.3.1/cas-server-core/src/main/java/org/jasig/cas/validation/Cas20ProtocolValidationSpecification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="23" selection-start="706" selection-end="706" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Users/Public/Java/cas-server-3.3.1/cas-server-core/src/main/java/org/jasig/cas/ticket/proxy/support/Cas20ProxyHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="19" selection-start="1082" selection-end="1082" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/jsp/protocol/2.0/casProxySuccessView.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/cas-servlet.xml">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/jsp/protocol/2.0/casServiceValidationSuccess.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="42.847828">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/spring-configuration/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="49" selection-start="846" selection-end="846" vertical-scroll-proportion="-5.9130435">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://C:/Users/Public/Java/cas-server-3.3.1/cas-server-core/src/main/java/org/jasig/cas/services/DefaultServicesManagerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="19" selection-start="880" selection-end="880" vertical-scroll-proportion="0.0">
+        <state line="5" column="24" selection-start="488" selection-end="488" vertical-scroll-proportion="0.1270553">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/resources/javascripts/effects.core.js">
+    <entry file="file://C:/Users/Public/Java/cas-server-3.3.1/cas-server-core/src/main/java/org/jasig/cas/validation/Assertion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="124" column="10" selection-start="5008" selection-end="5014" vertical-scroll-proportion="-8.88">
+        <state line="25" column="0" selection-start="821" selection-end="821" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/resources/javascripts/effects.pulsate.js">
+    <entry file="file://C:/Users/Public/Java/cas-server-3.3.1/cas-server-core/src/main/java/org/jasig/cas/web/ServiceValidateController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="40" selection-start="534" selection-end="534" vertical-scroll-proportion="0.0">
+        <state line="134" column="22" selection-start="5447" selection-end="5447" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mpower/cas/repository/JdbcUserDao.java">
+    <entry file="file://C:/Users/Public/Java/cas-server-3.3.1/cas-server-core/src/main/java/org/jasig/cas/authentication/AuthenticationManagerImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="213" column="10" selection-start="7961" selection-end="7961" vertical-scroll-proportion="0.1904762">
+        <state line="84" column="25" selection-start="4128" selection-end="4128" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mpower/cas/repository/UserDao.java">
+    <entry file="file://C:/Users/Public/Java/cas-server-3.3.1/cas-server-core/src/main/java/org/jasig/cas/web/flow/AuthenticationViaFormAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="101" column="0" selection-start="3801" selection-end="3801" vertical-scroll-proportion="0.0">
+        <state line="106" column="46" selection-start="4366" selection-end="4366" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mpower/cas/service/UserServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/jsp/orange/ui/casGenericSuccess.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="309" column="24" selection-start="10717" selection-end="10717" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mpower/cas/service/UserSearchServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="13" selection-start="405" selection-end="405" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/messages.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="56" selection-start="2203" selection-end="2203" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/jsp/orange/ui/casLoginView.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="51" selection-start="1156" selection-end="1156" vertical-scroll-proportion="-9.458333">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/deployerConfigContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="54" selection-start="1472" selection-end="1472" vertical-scroll-proportion="0.51282054">
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/jsp/orange/ui/casGenericSuccess.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="43" selection-start="1274" selection-end="1274" vertical-scroll-proportion="0.7434402">
+        <state line="54" column="54" selection-start="2949" selection-end="2949" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Users/Public/Java/cas-server-3.3.1/cas-server-core/src/main/java/org/jasig/cas/web/support/WebUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="29" selection-start="2695" selection-end="2695" vertical-scroll-proportion="0.28169015">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/cas-servlet.xml">
+      <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="218" column="44" selection-start="7958" selection-end="7958" vertical-scroll-proportion="0.43589744">
           <folding />
         </state>
       </provider>
