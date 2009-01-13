@@ -81,7 +81,7 @@ public class JdbcUserDao extends SimpleJdbcDaoSupport implements UserDao {
         // set some sane values for creating a new user, overriding any other values
         user.setLocked(true);
         user.setResetCode( generateResetCode() );
-        user.setLockedDate(new Date());
+        user.setDateLockedDate(new Date());
         user.setLoginAttempts(0);
 
         MapSqlParameterSource map = new MapSqlParameterSource();
@@ -109,6 +109,9 @@ public class JdbcUserDao extends SimpleJdbcDaoSupport implements UserDao {
     @Override
     public void updateUser(User user) {
 
+        // get the orig version
+        User origUser = getUser(user.getId());
+
         SimpleJdbcTemplate template = getSimpleJdbcTemplate();
         MapSqlParameterSource map = new MapSqlParameterSource();
         map.addValue("id", user.getId());
@@ -117,15 +120,32 @@ public class JdbcUserDao extends SimpleJdbcDaoSupport implements UserDao {
         map.addValue("adminuser", user.isSiteAdmin());
         map.addValue("active", user.isActive());
         map.addValue("locked", user.isLocked());
-        // if locked is true, but there is not locked date, it means
-        // the user was locked as part of the edit
-        if(user.isLocked() && user.getLockedDate() == null) {
-            user.setLockedDate(new Date());
-            map.addValue("lockeddttm", user.getLockedDate());
-        }
 
-        String sql = "UPDATE users SET name=:name, emailaddress=:emailaddress, adminuser=:adminuser," +
-                "active=:active, locked=:locked, lockeddttm=:lockeddttm WHERE id=:id";
+        if(user.isLocked() && !origUser.isLocked()) {
+            // locking
+            user.setDateLockedDate(new Date());
+            map.addValue("lockeddttm", user.getLockedDate());
+            map.addValue("resetcode", generateResetCode());
+        } else if(origUser.isLocked() && !user.isLocked()) {
+            // unlocking
+            map.addValue("lockeddttm", null);
+            map.addValue("resetcode", null);
+        } else {
+            // Hack around my other hack. User is returning an empty
+            // String for a null value to make the UI happy, but we need
+            // a real null for the insert.
+            String orig = origUser.getLockedDate();
+            if(orig.length() == 0) {
+                orig = null;
+            }
+
+            // nothing changed, so keep original values
+            map.addValue("lockeddttm", orig);
+            map.addValue("resetcode", origUser.getResetCode());
+        }
+       
+        String sql = "UPDATE users SET name= :name, emailaddress= :emailaddress, adminuser= :adminuser," +
+                "active= :active, locked= :locked, lockeddttm= :lockeddttm, resetcode= :resetcode WHERE id= :id";
 
         template.update(sql, map);
     }
@@ -150,7 +170,7 @@ public class JdbcUserDao extends SimpleJdbcDaoSupport implements UserDao {
         if(user.isLocked()) {
             //if User is locked, but LockedDate isn't set, create it
             if(user.getLockedDate() == null) {
-                user.setLockedDate(new Date());
+                user.setDateLockedDate(new Date());
             }
 
             // add a reset code
@@ -226,7 +246,7 @@ public class JdbcUserDao extends SimpleJdbcDaoSupport implements UserDao {
         SimpleJdbcTemplate template = getSimpleJdbcTemplate();
         Date login = new Date();
         template.update("UPDATE users SET lastlogin = ?, failedattempts=0 WHERE id=?", login, user.getId());
-        user.setLastLogin(login);
+        user.setLastLoginDate(login);
     }
 
 

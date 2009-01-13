@@ -27,7 +27,7 @@ public class UserSearchServiceImpl implements UserSearchService {
     @Override
     public List<User> findUsers(String criteria, int siteId) {
 
-        return userSearchDao.findUsers(criteria, 0);
+        return userSearchDao.findUsers(criteria, siteId);
 
     }
 

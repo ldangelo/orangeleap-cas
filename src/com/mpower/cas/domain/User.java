@@ -2,6 +2,9 @@ package com.mpower.cas.domain;
 
 import java.util.Date;
 import java.io.Serializable;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.text.ParseException;
 
 /**
  * The user represents two concepts. The first is someone who will
@@ -13,6 +16,8 @@ import java.io.Serializable;
  * @version 1.0
  */
 public class User implements Serializable {
+
+    private final static DateFormat FORMAT = new SimpleDateFormat("yyyy-MM-dd");
 
     // we'll use a default value of -1 to indicate a new user that is not
     // in the database
@@ -71,12 +76,33 @@ public class User implements Serializable {
         this.emailAddress = emailAddress;
     }
 
-    public Date getLastLogin() {
-        return lastLogin;
+    public String getLastLogin() {
+        return (lastLogin == null) ? "" : FORMAT.format(lastLogin);
     }
 
-    public void setLastLogin(Date lastLogin) {
+    /**
+     * Setter using a Date instead of a String. This setter
+     * is usually used when loading a user from the data store
+     * @param lastLogin
+     */
+    public void setLastLoginDate(Date lastLogin) {
         this.lastLogin = lastLogin;
+    }
+
+    /**
+     * Sets the date of the last login using a String representation
+     * of the date in yyyy-MM-dd format. Date strings that are not
+     * in the correct format are ignored.
+     * @param date the date String
+     */
+    public void setLastLogin(String date) {
+        if(date != null) {
+            try {
+                lastLogin = FORMAT.parse(date);
+            } catch(ParseException ex) {
+                // ignore for now
+            }
+        }
     }
 
     public int getLoginAttempts() {
@@ -87,13 +113,44 @@ public class User implements Serializable {
         this.loginAttempts = loginAttempts;
     }
 
+    /**
+     * Returns a String representation of the date of the
+     * last password change in yyyy-MM-dd format
+     * @return
+     */
+    public String getPasswordChange() {
+        return (passwordChangeDate == null) ? "" : FORMAT.format(passwordChangeDate);
+    }
+
     public Date getPasswordChangeDate() {
         return passwordChangeDate;
     }
 
+    /**
+     * Sets the password change date as a Date. This setter
+     * is the one usually used when loading a user from the database
+     * @param passwordChangeDate
+     */
     public void setPasswordChangeDate(Date passwordChangeDate) {
         this.passwordChangeDate = passwordChangeDate;
     }
+
+    /**
+     * Sets the password change date using a String representation
+     * of the date in the yyyy-MM-dd format. Dates in the incorrect
+     * format are ignored.
+     * @param date
+     */
+    public void setPasswordChange(String date) {
+        if(date != null) {
+            try {
+                passwordChangeDate = FORMAT.parse(date);
+            } catch(ParseException ex) {
+                // ignore for now
+            }
+        }
+    }
+
 
     /**
      * HASH value of the password, not the clear text
@@ -151,12 +208,22 @@ public class User implements Serializable {
      * The Date the account was locked. Null if the account is not locked
      * @return
      */
-    public Date getLockedDate() {
-        return lockedDate;
+    public String getLockedDate() {
+        return (lockedDate == null) ? "":FORMAT.format(lockedDate);
     }
 
-    public void setLockedDate(Date lockedDate) {
+    public void setDateLockedDate(Date lockedDate) {
         this.lockedDate = lockedDate;
+    }
+
+    public void setLockedDate(String dateString) {
+        if(dateString != null) {
+            try {
+                this.lockedDate = FORMAT.parse(dateString);
+            } catch(ParseException ex) {
+                // ignore for now
+            }
+        }
     }
 
     public boolean isActive() {

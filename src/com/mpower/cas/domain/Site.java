@@ -7,14 +7,15 @@ package com.mpower.cas.domain;
  */
 public class Site {
 
-    private int id;
+    // -1 means the Site does not have an ID, meaning it is not in the DB
+    private int id = -1;
     private String companyName;
     private String loginDomain;
     private String primaryContact;
     private String contactPhone;
     private String contactEmail;
-    private boolean active;
-    private boolean locked;
+    private boolean active = true;
+    private boolean locked = false;
 
     // Various Getters and Setters
 
