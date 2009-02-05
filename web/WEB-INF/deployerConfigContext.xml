@@ -21,8 +21,10 @@
 
     <bean id="dataSource" class="org.springframework.jndi.JndiObjectFactoryBean" p:jndiName="java:comp/env/jdbc/CAS"/>
     <bean id="userDao" class="com.mpower.cas.repository.JdbcUserDao" p:dataSource-ref="dataSource"/>
+    <bean id="siteDao" class="com.mpower.cas.repository.JdbcSiteDao" p:dataSource-ref="dataSource"/>
     <bean id="auditService" class="com.mpower.cas.service.AuditServiceImpl"/>
     <bean id="passwordPolicy" class="com.mpower.cas.service.OpenSecurityPolicy"/>
+
     <bean id="userSearchDao" class="com.mpower.cas.repository.JdbcUserSearchDao" p:dataSource-ref="dataSource">
         <property name="columnNames">
             <list>
@@ -32,14 +34,30 @@
         </property>
     </bean>
 
-    <bean id="userSearchService" class="com.mpower.cas.service.UserSearchServiceImpl" p:userSearchDao-ref="userSearchDao"/>
+    <bean id="siteSearchDao" class="com.mpower.cas.repository.JdbcSiteSearchDao" p:dataSource-ref="dataSource">
+        <property name="columnNames">
+            <list>
+                <value>domain</value>
+                <value>name</value>
+                <value>primarycontact</value>
+            </list>
+        </property>
+    </bean>
 
+    <bean id="userSearchService" class="com.mpower.cas.service.UserSearchServiceImpl" p:userSearchDao-ref="userSearchDao"/>
+    <bean id="siteSearchService" class="com.mpower.cas.service.SiteSearchServiceImpl" p:siteSearchDao-ref="siteSearchDao"/>
     <bean id="userService" class="com.mpower.cas.service.UserServiceImpl"
           p:auditService-ref="auditService"
           p:passwordPolicy-ref="passwordPolicy"
           p:userDao-ref="userDao"
           p:searchService-ref="userSearchService"
           p:passwordValidityDays="5"/>
+
+
+    <bean id="siteService" class="com.mpower.cas.service.SiteServiceImpl"
+          p:siteDao-ref="siteDao"
+          p:siteSearchService-ref="siteSearchService"/>
+
 
     <!-- END MPower customization -->
 
@@ -114,8 +132,9 @@
 					| local authentication strategy.  You might accomplish this by coding a new such handler and declaring
 					| edu.someschool.its.cas.MySpecialHandler here, or you might use one of the handlers provided in the adaptors modules.
 					+-->
-				<bean
-					class="com.mpower.cas.service.MpowerUsernamePasswordAuthenticationHandler" p:userService-ref="userService"/>
+				<bean class="com.mpower.cas.service.MpowerUsernamePasswordAuthenticationHandler"
+                      p:userService-ref="userService"
+                      p:siteService-ref="siteService"/>
 			</list>
 		</property>
 	</bean>

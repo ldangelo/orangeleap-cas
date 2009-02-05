@@ -186,8 +186,11 @@ public class JdbcUserDao extends SimpleJdbcDaoSupport implements UserDao {
             user.setResetCode(null);
         }
 
+        // HACK - gotta sort out this date thing, need a null, not empty '' if null
+        String date = (user.getLockedDate().length() == 0 ? null : user.getLockedDate());
+
         template.update("UPDATE users SET locked=?, lockeddttm=?, resetcode=? WHERE id=?",
-                user.isLocked(), user.getLockedDate(), user.getResetCode(), user.getId());
+                user.isLocked(), date, user.getResetCode(), user.getId());
     }
 
     @Override
