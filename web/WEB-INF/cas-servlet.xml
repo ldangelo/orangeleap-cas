@@ -7,7 +7,7 @@
        http://www.springframework.org/schema/webflow-config http://www.springframework.org/schema/webflow-config/spring-webflow-config-1.0.xsd">
        
 	<bean id="casPropertyPlaceholderConfigurer2" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer"
-		p:location="/WEB-INF/cas.properties" />
+		p:location="classpath:cas.properties" />
        
 	<!-- Theme Resolver -->
 	<bean id="themeResolver" class="org.jasig.cas.services.web.ServiceThemeResolver"
@@ -122,7 +122,7 @@
 	<bean
 		id="openIdProviderController"
 		class="org.jasig.cas.web.OpenIdProviderController"
-		p:loginUrl="${cas.securityContext.casProcessingFilterEntryPoint.loginUrl}" />
+		p:loginUrl="${cas.baseUrl}/${cas.contextPrefix}${cas.context}/login" />
 	
 	<bean
 		id="serviceLogoutViewController"

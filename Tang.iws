@@ -2,112 +2,650 @@
 <project relativePaths="false" version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/war/ognl-2.6.9.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/war/ehcache-1.2.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/war/asm-1.5.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/springConfig.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/war/spring-jdbc-2.5.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/mpower/cas/repository/RowMappers.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/war/persistence-api-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/mpower/cas/repository/UserSearchDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/mpower/cas/service/UserService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/mpower/cas/service/AuditServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/war/antlr-2.7.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/com/mpower/cas/repository/JdbcSiteSearchDaoTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/com/mpower/cas/service/JdbcUserServiceTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/war/commons-lang-2.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/war/aopalliance-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/war/jstl-1.1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/mpower/cas/service/MinimalPasswordSecurityPolicy.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/war/jta-1.0.1B.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/doc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/war/spring-context-support-2.5.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/AuthenticationService.ldb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/war/cas-server-support-jdbc-3.3.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/war/xmldsig-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/war/commons-logging-1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/mpower/cas/service/UserSearchService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/war/hibernate-3.2.6.ga.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/com/mpower/cas" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/war/xmlsec-1.4.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/mpower/cas/repository/UserDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/war/spring-security-core-2.0.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/mpower/cas/repository/JdbcUserDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/mpower/cas/service/SiteSearchService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/war/dom4j-1.6.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/war/spring-aop-2.5.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/war/aspectjweaver-1.5.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db/setup.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/war/spring-webmvc-2.5.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/war/asm-attrs-1.5.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/war/standard-1.1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/com/mpower/cas/repository" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/mpower/cas/service/MpowerUsernamePasswordAuthenticationHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/war/jdom-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/war/ejb3-persistence-1.0.1.GA.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/mpower/cas/service/SiteService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/war/spring-beans-2.5.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/mpower/cas/domain/User.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/mpower/cas/repository/JdbcUserSearchDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/war/log4j-1.2.15.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/AuthenticationService.eap" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/compile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/war/spring-webflow-1.0.5.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/war/spring-orm-2.5.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/test/mysql-connector-java-5.1.7-bin.jar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tang.iml" afterPath="$PROJECT_DIR$/Tang.iml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db/testdata.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/mpower/cas/repository/SiteDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/mpower/cas/domain" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/war/spring-tx-2.5.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/war/spring-binding-1.0.5.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/war/quartz-1.5.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/mpower/cas/repository/JdbcSiteDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/com/mpower/cas/repository/JdbcUserDaoTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/mpower/cas/repository/AuditDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/com/mpower/cas/repository/JdbcUserSearchDaoTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/mpower/cas/service/AuditService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/war/spring-core-2.5.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/mpower/cas/domain/Activity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/war" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/war/inspektr-core-0.7.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/mpower/cas/repository/JdbcAuditDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/mpower/cas/repository/ConsoleAuditDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/war/hibernate-annotations-3.3.1.GA.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/mpower/cas/repository/JdbcSiteSearchDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/mpower/cas/service/SiteServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/mpower/cas/domain/ActivityCode.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/mpower/cas/service" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/war/spring-web-2.5.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/war/person-directory-impl-1.1.2.jar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tang.ipr" afterPath="$PROJECT_DIR$/Tang.ipr" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/war/cas-client-core-3.1.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/mpower/cas/service/SiteSearchServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/war/spring-context-2.5.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/war/commons-collections-3.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/war/opensaml-1.1b.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/war/cas-server-core-3.3.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/war/cglib-2.1_3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/war/commons-codec-1.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/war/person-directory-api-1.1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/mpower/cas/service/UserServiceImpl.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/services/add_service.gif" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/box/tb-blue.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/vista/grid/grid-split.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/tabs/tab-strip-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/vista/layout/ns-collapse.gif" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/ie_cas.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/gray/toolbar/btn-arrow-light.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/window/top-bottom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/box/corners-blue.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/javascripts/search-ext.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/panel/tool-sprites.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/sizer/e-handle.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/vista/sizer/s-handle-dark.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/vista/sizer/nw-handle-dark.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/shadow-lr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/tabs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/modal_top_left.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/editor" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/navGradientBlack.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/tree/arrows.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/tree/elbow-plus-nl.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/panel/tool-sprite-tpl.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/shared/warning.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/grid/wait.gif" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/view/jsp/default/ui/casLoginView.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/view/jsp/default/ui/casLoginView.jsp" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/button/btn-arrow.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/vista/basic-dialog/s-handle.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/panel/top-bottom.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/stylesheets/jquery.tooltip.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/grid/page-next.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/button/btn-sprite.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/vista/tabs/tab-btm-inactive-right-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/sizer/e-handle-dark.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/tree/folder.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/toolbar/btn-arrow-light.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/window/icon-error.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/flash.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/menu/menu.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/qtip/close.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/form/radio.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/grid" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/tree/elbow-end-plus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/grid/hmenu-lock.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/grid/grid3-hrow-over.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/tree/arrows.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/icons/deleteRow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/form/checkbox.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/gray/tabs/scroll-right.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/vista/tabs/tab-btm-left-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/sizer/e-handle.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/shared" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/bodyGradient.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/javascripts/effects.pulsate.js" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/services/delete_service.gif" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/sizer/s-handle.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/css/ext-all.css" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/common_rosters.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/META-INF/context.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/layout/panel-close.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/layout/collapse.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/gray" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/services/info_icon_small.gif" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/closeButton.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/tree/drop-yes.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/window/right-corners.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/tabs/tab-btm-inactive-right-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/css/tree.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/window/left-corners.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/shared/hd-sprite.gif" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/authorizationFailure.jsp" afterPath="$PROJECT_DIR$/web/authorizationFailure.jsp" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/icons/homeIcon.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/form/clear-trigger.gif" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/services/info.gif" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/layout/mini-right.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/vista/layout/ns-expand.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/css/debug.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/form/text-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/vista/tabs/tab-btm-inactive-left-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/sizer/sw-handle.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/users4_add.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/sizer/ne-handle-dark.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/css/dd.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/grid/grid-split.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/stylesheets/jquery.cluetip.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/slider/slider-v-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/menu/item-over.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/stylesheets/pages.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/vista/layout/tab-close-on.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/css/tabs.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/layout/mini-top.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/flash.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/vista/sizer/e-handle-dark.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/gray/panel/tool-sprites.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/shared/left-btn.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/users4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/grid/grid3-hrow-over.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/css/menu.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/button" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/sizer/e-handle-dark.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/form/date-trigger.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/icons/check-eee.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/shared/glass-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/vista/basic-dialog/bg-left.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/javascripts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/stylesheets/ie_cas.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/tree/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/javascripts/jquery.bgiframe.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/grid/page-prev.gif" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/key-point_tl.gif" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/toolbar/tb-btn-sprite.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/tabs/tab-strip-btm-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/stylesheets/login.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/info.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/grid/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/vista/layout/expand.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/secondaryHighlight.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/form" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/gray/panel/white-left-right.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/css/xtheme-gray.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/desc.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/layout/gradient-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/grid/invalid_line.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/window" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/users4_edit.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/window/top-bottom.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/navGradientBlack2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/vista/sizer/s-handle.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/gray/tabs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/tabs/tab-btm-inactive-right-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/javascripts/jquery.cluetip.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/javascripts/jquery.tablesorter.pager.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/vista/gradient-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/vista/basic-dialog/bg-center.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/icons/last.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/tree/drop-no.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/vista/layout/collapse.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/dd/drop-add.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/menu/menu.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/tabs/tab-strip-bg.gif" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tang.iws" afterPath="$PROJECT_DIR$/Tang.iws" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/mpower/cas/service/OpenSecurityPolicy.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/mpower/cas/service/PasswordExpiredAuthenticationException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/mpower/cas/service/PasswordSecurityPolicy.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/mpower/cas/domain/Site.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/war/spring-security-cas-client-2.0.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/mpower/cas/repository" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/war/hibernate-commons-annotations-3.0.0.ga.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/mpower/cas/repository/SiteSearchDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/mpower/cas" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/war/aspectjrt-1.5.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/test/junit-4.5.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/com/mpower/cas/service" afterPath="" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/build.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/mpower/cas/service/UserSearchServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/gray/toolbar/btn-arrow.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/form/search-trigger.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/lock.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/gray/tabs/scroll-left.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/sizer/ne-handle.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/mpowerLogo.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/user1_add.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/grid/hmenu-desc.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/toolbar/tb-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/gray/window/left-corners.pspimage" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/window/top-bottom.png" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/messages.properties" afterPath="$PROJECT_DIR$/config/messages.properties" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/menu/checked.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/javascripts/jquery.form.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/css/borders.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/grid/grid3-hd-btn.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/vista/basic-dialog/hd-sprite.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/gray/tabs/tabs-sprite.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/grid/columns.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/form/trigger.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/gray/toolbar/tb-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/grid/hmenu-unlock.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/menu" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/css/button.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/form/date-trigger.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/navGradientGrey.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/box" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/users4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/form/exclamation.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/form/date-trigger.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/vista/basic-dialog/e-handle.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/menu/menu-parent.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/grid/hmenu-asc.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/box/r.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/tabs/tab-btm-right-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/gray/panel/tools-sprites-trans.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/panel/white-left-right.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/form/clear-trigger.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/grid/footer-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/gray/qtip/close.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/confirm.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/x.gif" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/orangeleap/security/cas/TangerineAuthenticationHandler.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/toolbar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/modal_bottom_right.gif" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/ja-sig-logo.gif" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/progress/progress-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/gray/s.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/stylesheets/cas.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/panel/white-top-bottom.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/icons/unknown.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/sizer/nw-handle-dark.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/stylesheets/master_IE6.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/sizer/square.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/shadow-c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/gray/panel/corners-sprite.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/vista/layout/stick.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/css/qtips.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/grid/sort_asc.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/qtip/tip-sprite.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/sizer/se-handle.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/grid/sort_asc.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/gray/window" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/toolbar/btn-arrow.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/grid/page-first.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/gray/panel/top-bottom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/users4_edit.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/slider/slider-v-thumb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/grid/nowait.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/gray/qtip/tip-sprite.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/form/radio.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/users4_add.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/window/left-corners.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/gray/button/btn-arrow.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/toolbar/gray-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/form/clear-trigger.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/grid/pick-button.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/qtip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/gray/panel/left-right.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/themes/default/cas.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/vista/basic-dialog/w-handle.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/qtip/tip-sprite.gif" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/services/cas.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/toolbar/btn-arrow.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/layout/expand.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/grid/grid3-special-col-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/tabs/tab-btm-inactive-left-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/gray/window/left-corners.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/editor" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/icons/view.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/panel/white-corners-sprite.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/grid/row-over.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/window/left-corners.png" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/vista/sizer/sw-handle-dark.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/css/layout.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/images.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/css/panel.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/grid/page-next.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/gradient-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/css/reset.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/tree/folder-open.gif" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/log4j.properties" afterPath="$PROJECT_DIR$/config/log4j.properties" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/grid/drop-no.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/lock_edit.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/stylesheets/jqModal.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/css/form.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/gray/panel/light-hd.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/grid/grid3-hrow.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/gray/window/left-right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/window/icon-info.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/shared/calendar.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/gray/tabs/tab-btm-inactive-left-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/css/reset-min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/tabs/tab-btm-left-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/vista/sizer/se-handle.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/grid/page-next-disabled.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/panel/left-right.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/gray/toolbar/gray-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/icons/calendar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/s.gif" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/spring-configuration/propertyFileConfigurer.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/spring-configuration/propertyFileConfigurer.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/sizer/se-handle-dark.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/sizer/sw-handle-dark.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/qtip/bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/gray/panel" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/lock2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/user1_edit.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/panel" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/tree/elbow-end-plus-nl.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/button" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/grid/grid-blue-hd.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/layout/ns-expand.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/javascripts/jqDnR.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tang.ipr" afterPath="$PROJECT_DIR$/Tang.ipr" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/gray/window/icon-question.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/asc.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/javascripts/jquery.hoverIntent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/dude2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/ext-jquery-adapter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/layout/ns-collapse.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/grid/hmenu-unlock.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/layout/mini-bottom.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/tree/drop-add.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/sizer/nw-handle.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/tabs/tab-btm-left-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/layout/panel-title-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/sideBarGradient3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/shared/hd-sprite.gif" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/info.gif" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/form/trigger.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/box/corners.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/form/search-trigger.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/form/search-trigger.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/menu/group-checked.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/gray/button" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/window/icon-question.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/tabs/tab-strip-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/window/left-right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/css/combo.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/buttonGradientBlue.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/progress" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/css/resizable.css" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/cas.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/panel" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/lock2.gif" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/spring-configuration/securityContext.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/spring-configuration/securityContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/deployerConfigContext.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/deployerConfigContext.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/sizer/nw-handle-dark.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/tree/elbow-line.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/ext-all.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/css/editor.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/form/trigger.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/vista/toolbar/tb-btn-sprite.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/gray/panel/white-top-bottom.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/javascripts/mpower-ext.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/javascripts/lockedout-ext.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/gray/window/icon-warning.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/css/window.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/vista/layout/gradient-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/shared" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/user1_find.png" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/services/alert2.gif" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/tabs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/tree/drop-under.gif" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/protocol_views.properties" afterPath="$PROJECT_DIR$/config/protocol_views.properties" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/grid/arrow-right-white.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/javascripts/jquery.tablesorter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/javascripts/jquery.cookie.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/tree/elbow-minus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/gray/tabs/tab-btm-left-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/sizer/square.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/javascripts/effects.core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/sizer" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/gray/button/btn-sprite.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/toolbar/tb-btn-sprite.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/gray/window/right-corners.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/icons/homeIconInverted.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/tree/s.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/icons/first.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/doublearrow.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/box" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/slider/slider-thumb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/grid/mso-hd.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/window/icon-warning.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/sizer/ne-handle.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/javascripts/edituser-ext.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/dd/drop-yes.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/javascripts/jquery.autocomplete.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/vista/basic-dialog/dlg-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/toolbar/btn-over-bg.gif" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/services" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/tabs/scroller-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/vista/s.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/qtip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/stylesheets/master.css" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/favicon.ico" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/form/trigger-tpl.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/navGradientOrange2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/grid/row-sel.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/tree" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/expandDownArrow.gif" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/services/error.gif" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/panel/white-corners-sprite.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/grid/page-last.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/tree/elbow.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/dd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/gray/panel/tool-sprite-tpl.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/panel/top-bottom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/shared/glass-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/gray/tabs/tab-close.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/css/box.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/tree/drop-over.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/panel/top-bottom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/tabs/scroll-left.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/vista/tabs/tab-sprite.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/modal_bottom_left.gif" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/cas-servlet.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/cas-servlet.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/vista/qtip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/vista/basic-dialog/expand.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/lock_open.png" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/orangeleap" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/toolbar/bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/grid/group-by.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/shadow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/gray/window/icon-info.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/slider/slider-thumb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/tabs/scroll-right.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/user1_add.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/icons/prev.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/grid" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/grid/grid3-hrow.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/gray/tabs/tab-strip-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/lock_edit.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/tabs/scroll-left.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/box/l-blue.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/grid/drop-yes.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/icons/questionGreyTransparent.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/grid/grid-hrow.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/sizer/sw-handle.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/tabs/tab-btm-right-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/gray/tabs/tab-strip-btm-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/shadow-c.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/grid/page-first-disabled.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/grid/grid3-special-col-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/gray/window/top-bottom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/vista/sizer/e-handle.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/grid/row-check-sprite.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/vista/sizer/ne-handle-dark.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/buttonGradient.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/panel/light-hd.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/tree/elbow-end-minus-nl.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/grid/sort_desc.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/toolbar/bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/modal_top_right.gif" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/default_views.properties" afterPath="$PROJECT_DIR$/config/default_views.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/services/ieFix.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/vista" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/services/false.gif" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/searchBtn.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/panel/tool-sprite-tpl.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/panel/tools-sprites-trans.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/tree/elbow-plus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/grid/page-prev-disabled.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/window/right-corners.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/shared/blue-loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/panel/top-bottom.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/gray/tabs/scroller-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/gray/tabs/tab-btm-right-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/vista/sizer/ne-handle.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/grid/group-expand-sprite.gif" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/orange_views.properties" afterPath="$PROJECT_DIR$/config/orange_views.properties" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/css/dialog.css" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/themes" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/stylesheets/screen.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/tree/elbow-end-minus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/gray/toolbar/tb-btn-sprite.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/panel/left-right.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/slider/slider-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/gray/toolbar/bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/css/date-picker.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/vista/basic-dialog/bg-right.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/panel/corners-sprite.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/vista/layout/panel-title-light-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/panel/white-left-right.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/gray/window/icon-error.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/vista/sizer" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/grid/grid3-special-col-sel-bg.gif" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/services/true.gif" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/tree/leaf.gif" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/build.xml" afterPath="$PROJECT_DIR$/build/build.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/stylesheets/forms.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/tabs/tab-close.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/grid/col-move-bottom.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/sizer/ne-handle-dark.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/sizer/s-handle-dark.gif" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/confirm.gif" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/menu/checked.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/dd/drop-no.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/grid/grid3-special-col-sel-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/grid/col-move-top.gif" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/orangeleap/security" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/tabs/tab-close.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/shared/right-btn.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/javascripts/mpower.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/qtip/close.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/vista/tabs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/form/checkbox.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/vista/basic-dialog/collapse.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/sizer/sw-handle-dark.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/icons/document_forbidden.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/progress/progress-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/shared/left-btn.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/slider/slider-v-thumb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/toolbar/btn-over-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/grid/page-last-disabled.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/layout/tab-close-on.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/grid/refresh.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/menu" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/shared/large-loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/mpowerLogoSmall.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/window/left-right.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/gray/qtip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/vista/layout" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/button/btn-sprite.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/vista/basic-dialog/close.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/layout" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/stylesheets" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/services/success.gif" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/gray/gradient-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/icons/warning.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/rightOrange.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/gray/panel/white-corners-sprite.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/lock_open.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/sizer/se-handle.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/vista/toolbar/gray-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/vista/layout/panel-title-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/vista/qtip/bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/vista/sizer/se-handle-dark.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/tree/drop-between.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/menu/unchecked.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/leftOrange.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/vista/basic-dialog" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/css/xtheme-slate.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$" afterPath="$PROJECT_DIR$" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/menu/menu-parent.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/user1_find.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/grid/refresh.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/progress" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/layout/stuck.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/grid/sort_desc.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/vista/toolbar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/tabs/tab-strip-btm-bg.gif" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/spring-configuration/ticketGrantingTicketCookieGenerator.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/spring-configuration/ticketGrantingTicketCookieGenerator.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/css/slider.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/box/tb-blue.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/menu/item-over.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/button/btn-arrow.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/tabs/scroller-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/form/trigger-tpl.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/error.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/icons" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/grid/hmenu-lock.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/grid/grid-vista-hd.gif" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/orangeleap/security/cas" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/sizer/se-handle-dark.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/signInBox.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/vista/sizer/sw-handle.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/javascripts/jquery.tooltip.js" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/shared/loading-balls.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/grid/dirty.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/grid/page-prev.gif" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/themes/default" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/panel/white-top-bottom.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/css/progress.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/resources.jsb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/lock.gif" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/key-point_br.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/error.gif" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/toolbar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/css/core.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/menu/unchecked.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/layout/stick.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/form/error-tip-corners.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/grid/grid-loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/qtip/bg.gif" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/layout/mini-left.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/slider" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/editor/tb-sprite.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/grid/grid-split.gif" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/WEB-INF/cas.properties" afterPath="$PROJECT_DIR$/cas.properties" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/vista/grid/grid-vista-hd.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/sizer/s-handle.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/css/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/sizer/s-handle-dark.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/menu/group-checked.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/mpower" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/grid/hd-pop.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/grid/arrow-left-white.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/sizer" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/grid/grid-blue-split.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/gray/toolbar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/stylesheets/print.css" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/services/edit_service.gif" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/box/l.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/box/r-blue.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/stylesheets/navigation.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tang.iml" afterPath="$PROJECT_DIR$/Tang.iml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/vista/layout/tab-close.gif" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/key-point_tr.gif" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/grid/page-first.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/box/tb.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/slider/slider-v-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/window/left-right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/layout/panel-title-light-bg.gif" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/common.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/javascripts/date.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/wait.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/panel/tool-sprites.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/grid/row-expand-sprite.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/panel/light-hd.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/tabs/tabs-sprite.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/slider" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/gray/panel/top-bottom.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/gray/toolbar/btn-over-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/window/right-corners.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/icons/next.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/editor/tb-sprite.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/vista/grid" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/vista/tabs/tab-btm-right-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/grid/done.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/layout/tab-close.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/tabs/tabs-sprite.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/css/toolbar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/grid/page-last-disabled.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/panel/corners-sprite.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/stylesheets/master_IE.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/vista/layout/panel-close.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/form" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/vista/sizer/nw-handle.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/tree" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/grid/page-first-disabled.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/vista/qtip/tip-sprite.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/slider/slider-bg.png" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/key-point_bl.gif" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/tree/elbow-minus-nl.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/shared/right-btn.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/stylesheets/jquery.autocomplete.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/vista/basic-dialog/se-handle.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/icons/questionGrey.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/tabs/scroll-right.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/tabs/tab-btm-inactive-left-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/window" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/tree/elbow-end.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/icons/view.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/greyBox.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/javascripts/jqModal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/navGradientBoth.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/gray/qtip/bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/gray/tabs/tab-btm-inactive-right-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/sizer/nw-handle.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/stylesheets/tablesorter.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/slate/grid/page-last.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/css/grid.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/default/grid/grid3-hd-btn.gif" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/services" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ext/resources/images/gray/tabs/tab-strip-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/icons/refresh.png" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/javascripts/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/modalGradient.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/user1_edit.png" afterPath="" />
     </list>
     <ignored path="Tang.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -166,10 +704,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="build.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/build/build.xml">
+      <file leaf-file-name="cas-servlet.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/cas-servlet.xml">
+          <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="39" selection-end="39" vertical-scroll-proportion="-0.14263074">
+            <state line="15" column="81" selection-start="983" selection-end="983" vertical-scroll-proportion="0.68010074">
               <folding />
             </state>
           </provider>
@@ -242,12 +783,12 @@
     <subPane subId="file" />
   </component>
   <component name="JspContextManager">
-    <jsp-to-context jsp-file="file://$PROJECT_DIR$/web/WEB-INF/view/jsp/default/ui/includes/bottom.jsp" context-file="file://$PROJECT_DIR$/web/WEB-INF/view/jsp/default/ui/serviceErrorView.jsp" />
-    <jsp-to-context jsp-file="file://$PROJECT_DIR$/web/WEB-INF/view/jsp/default/ui/includes/top.jsp" context-file="file://$PROJECT_DIR$/web/WEB-INF/view/jsp/default/ui/serviceErrorView.jsp" />
-    <jsp-to-context jsp-file="file://$PROJECT_DIR$/web/WEB-INF/view/jsp/services/includes/top.jsp" context-file="file://$PROJECT_DIR$/web/WEB-INF/view/jsp/services/add.jsp" />
+    <jsp-to-context jsp-file="file://$PROJECT_DIR$/web/WEB-INF/view/jsp/default/ui/includes/bottom.jsp" context-file="file://$PROJECT_DIR$/web/authorizationFailure.jsp" />
+    <jsp-to-context jsp-file="file://$PROJECT_DIR$/web/WEB-INF/view/jsp/default/ui/includes/top.jsp" context-file="file://$PROJECT_DIR$/web/authorizationFailure.jsp" />
+    <jsp-to-context jsp-file="file://$PROJECT_DIR$/web/WEB-INF/view/jsp/services/includes/top.jsp" context-file="file://$PROJECT_DIR$/web/WEB-INF/view/jsp/services/logout.jsp" />
     <jsp-to-context jsp-file="file://$PROJECT_DIR$/web/WEB-INF/view/jsp/orange/ui/includes/bottom.jsp" context-file="file://$PROJECT_DIR$/web/WEB-INF/view/jsp/orange/ui/casGenericSuccess.jsp" />
     <jsp-to-context jsp-file="file://$PROJECT_DIR$/web/WEB-INF/view/jsp/orange/ui/includes/top.jsp" context-file="file://$PROJECT_DIR$/web/WEB-INF/view/jsp/orange/ui/serviceErrorSsoView.jsp" />
-    <jsp-to-context jsp-file="file://$PROJECT_DIR$/web/WEB-INF/view/jsp/services/includes/bottom.jsp" context-file="file://$PROJECT_DIR$/web/WEB-INF/view/jsp/services/add.jsp" />
+    <jsp-to-context jsp-file="file://$PROJECT_DIR$/web/WEB-INF/view/jsp/services/includes/bottom.jsp" context-file="file://$PROJECT_DIR$/web/WEB-INF/view/jsp/services/logout.jsp" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -301,7 +842,7 @@
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.LibraryGroupNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="CAS" />
+          <option name="myItemId" value="CAS Jars" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -315,19 +856,7 @@
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="Libraries" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.LibraryGroupNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="CAS" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="cas-server-core-3.3.2.jar" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="cas" />
+          <option name="myItemId" value="tang" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -341,19 +870,7 @@
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="Libraries" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.LibraryGroupNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="CAS" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="cas-server-core-3.3.2.jar" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="cas" />
+          <option name="myItemId" value="tang" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
@@ -371,277 +888,15 @@
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="Libraries" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.LibraryGroupNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="CAS" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="cas-server-core-3.3.2.jar" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="cas" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="validation" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Tang" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Tang" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Libraries" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.LibraryGroupNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="CAS" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="cas-server-core-3.3.2.jar" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="cas" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="util" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Tang" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Tang" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Libraries" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.LibraryGroupNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="CAS" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="cas-server-core-3.3.2.jar" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="cas" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="ticket" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Tang" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Tang" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Libraries" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.LibraryGroupNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="CAS" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="cas-server-core-3.3.2.jar" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="cas" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="server" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Tang" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Tang" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Libraries" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.LibraryGroupNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="CAS" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="cas-server-core-3.3.2.jar" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="cas" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="authentication" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Tang" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Tang" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Libraries" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.LibraryGroupNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="CAS" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="cas-server-core-3.3.2.jar" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="cas" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="authentication" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="principal" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Tang" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Tang" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Libraries" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.LibraryGroupNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="CAS" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="cas-server-core-3.3.2.jar" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="cas" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="authentication" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="handler" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Tang" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Tang" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Libraries" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.LibraryGroupNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="CAS" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="cas-server-core-3.3.2.jar" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="cas" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="spi" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Tang" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Tang" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Libraries" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.LibraryGroupNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="CAS" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="cas-server-core-3.3.2.jar" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Tang" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Tang" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
           <option name="myItemId" value="tang" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="web" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="WEB-INF" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -659,47 +914,7 @@
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="test" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="cas" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Tang" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Tang" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="tang" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="src" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Tang" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Tang" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="tang" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="lib" />
+          <option name="myItemId" value="config" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -727,14 +942,14 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="0.591687" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="0.52866244" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
       <showLibraryContents />
-      <hideEmptyPackages />
+      <hideEmptyPackages ProjectPane="false" />
       <abbreviatePackageNames />
-      <showStructure J2EEPane="false" ProjectPane="true" />
+      <showStructure J2EEPane="false" Scope="false" ProjectPane="true" />
       <autoscrollToSource />
       <autoscrollFromSource />
       <sortByType />
@@ -766,7 +981,7 @@
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.lastSelected" value="preferences.applicationServers" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder4" value="4" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder1" value="1" />
@@ -895,11 +1110,11 @@
       <option name="BASE_DIRECTORY_NAME" value="" />
       <predefined_log_file id="TOMCAT_LOCALHOST_LOG_ID" enabled="true" />
     </configuration>
-    <configuration default="false" name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/" />
+    <configuration default="false" name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 6">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/cas/" />
       <option name="BROWSER_ID" value="system" />
       <JAVAEE_FACET FACET_ID="Tang/web/Web" DEPLOYMENT_SOURCE_NAME="exploded">
-        <option name="CONTEXT_PATH" value="/" />
+        <option name="CONTEXT_PATH" value="/cas" />
         <option name="DEPLOY" value="true" />
       </JAVAEE_FACET>
       <server-settings>
@@ -958,6 +1173,16 @@
       <Port>5050</Port>
     </configuration>
   </component>
+  <component name="ScopeViewComponent">
+    <subPane subId="All">
+      <PATH>
+        <PATH_ELEMENT USER_OBJECT="Root">
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="" />
+        </PATH_ELEMENT>
+      </PATH>
+    </subPane>
+  </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="StarteamConfiguration">
     <option name="SERVER" value="" />
@@ -973,7 +1198,7 @@
   <component name="StructureViewFactory">
     <option name="AUTOSCROLL_MODE" value="true" />
     <option name="AUTOSCROLL_FROM_SOURCE" value="false" />
-    <option name="ACTIVE_ACTIONS" value="SHOW_INHERITED,ALPHA_COMPARATOR" />
+    <option name="ACTIVE_ACTIONS" value="ALPHA_COMPARATOR" />
   </component>
   <component name="SvnConfiguration">
     <option name="USER" value="" />
@@ -1014,21 +1239,21 @@
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32880434" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23097827" sideWeight="0.5" order="1" side_tool="false" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.6638298" order="1" side_tool="false" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22978723" sideWeight="0.5" order="1" side_tool="false" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39945653" sideWeight="0.5" order="3" side_tool="false" />
       <window_info id="Dataflow to this" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32880434" sideWeight="0.5" order="7" side_tool="false" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32744566" sideWeight="0.5" order="7" side_tool="false" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32624114" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32880434" sideWeight="0.5" order="6" side_tool="false" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28520116" sideWeight="0.0" order="0" side_tool="false" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28520116" sideWeight="0.6638298" order="0" side_tool="false" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="Web Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32880434" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3722826" sideWeight="0.5" order="2" side_tool="false" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3716312" sideWeight="0.5" order="2" side_tool="false" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295129" sideWeight="0.5" order="3" side_tool="false" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32849604" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16260745" sideWeight="0.6622691" order="3" side_tool="false" />
@@ -1049,7 +1274,7 @@
     <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
     <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Few small tweaks to the UserDao to correct a login problem. Commented out Audit stuff for demo purposes. Added in some JQuery effects for the login page to make the message standout better." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added custom LDAP authenticator, updated to CAS 3.3.2 and included additional jars for LDAP." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
@@ -1071,6 +1296,8 @@
     <MESSAGE value="TANG-15 TANG-16 Wrapped up most all the UserDao and UserService. Just missing the Audit tracking, which I want to burn more braincells on." />
     <MESSAGE value="TANG-19 Stylized login page to match Tangerine MPower page and added ExtJS library. Removed old css and images folder from web root." />
     <MESSAGE value="Few small tweaks to the UserDao to correct a login problem. Commented out Audit stuff for demo purposes. Added in some JQuery effects for the login page to make the message standout better." />
+    <MESSAGE value="Cleaned up for upgrade to CAS 3.3.2 and modified to be LDAP based. Emptied directories, so nothing to build. Don't use this REV for anything!" />
+    <MESSAGE value="Added custom LDAP authenticator, updated to CAS 3.3.2 and included additional jars for LDAP." />
   </component>
   <component name="VssConfiguration">
     <option name="CLIENT_PATH" value="" />
@@ -1116,6 +1343,14 @@
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
+    <buildFile url="file://$PROJECT_DIR$/build/build.xml">
+      <antCommandLine value="" />
+      <runInBackground value="true" />
+      <targetFilters />
+      <treeView value="true" />
+      <verbose value="true" />
+      <viewClosedWhenNoErrors value="false" />
+    </buildFile>
   </component>
   <component name="atlassian-ide-plugin-workspace">
     <option name="bambooConfiguration">
@@ -1250,47 +1485,114 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/cas-servlet.xml">
-      <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/build/build.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="208" column="105" selection-start="7600" selection-end="7600" vertical-scroll-proportion="0.0">
+        <state line="34" column="15" selection-start="1366" selection-end="1366" vertical-scroll-proportion="-6.037037">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/messages.properties">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/deployerConfigContext.xml">
+      <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="138" column="46" selection-start="7340" selection-end="7340" vertical-scroll-proportion="0.50162864">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cas.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="69" selection-end="69" vertical-scroll-proportion="-27.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/spring-configuration/README.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/jsp/default/ui/casLoginView.jsp">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/restlet-servlet.xml">
+      <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="53" selection-start="2127" selection-end="2127" vertical-scroll-proportion="-0.2857143">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/jsp/orange/ui/casLoginView.jsp">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="14.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/spring-configuration/securityContext.xml">
+      <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/orange_views.properties">
+    <entry file="file:///home/tim/Tools/spring-framework-2.5.6.SEC01/src/org/springframework/core/io/ClassPathResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="35.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///home/tim/Tools/spring-security-2.0.4/dist/spring-security-cas-client-2.0.4-sources.jar!/org/springframework/security/ui/cas/CasProcessingFilter.java">
+    <entry file="file:///home/tim/Tools/spring-framework-2.5.6.SEC01/src/org/springframework/core/io/Resource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="13" selection-start="3013" selection-end="3013" vertical-scroll-proportion="327.0">
+        <state line="44" column="0" selection-start="1442" selection-end="1442" vertical-scroll-proportion="-136.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///home/tim/Tools/spring-framework-2.5.6.SEC01/src/org/springframework/core/io/support/PropertiesLoaderSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="95" column="31" selection-start="3050" selection-end="3050" vertical-scroll-proportion="-226.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///home/tim/Tools/spring-framework-2.5.6.SEC01/src/org/springframework/beans/factory/config/PropertyPlaceholderConfigurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="13" selection-start="4108" selection-end="4108" vertical-scroll-proportion="-179.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///home/tim/Tools/spring-framework-2.5.6.SEC01/src/org/springframework/beans/factory/config/PropertyResourceConfigurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/spring-configuration/propertyFileConfigurer.xml">
+      <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="30" selection-start="958" selection-end="958" vertical-scroll-proportion="0.38110748">
           <folding />
         </state>
       </provider>
@@ -1305,68 +1607,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///home/tim/Tools/cas-server-3.3.2/cas-server-core/src/main/java/org/jasig/cas/authentication/AuthenticationManagerImpl.java">
+    <entry file="file://$PROJECT_DIR$/config/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="70" selection-start="882" selection-end="882" vertical-scroll-proportion="0.0">
+        <state line="30" column="40" selection-start="1571" selection-end="1571" vertical-scroll-proportion="0.72106826">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file:///home/tim/Tools/cas-server-3.3.2/cas-server-core/src/main/java/org/jasig/cas/audit/spi/ServiceResourceResolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="29" selection-start="951" selection-end="951" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///home/tim/Tools/cas-server-3.3.2/cas-server-core/src/main/java/org/jasig/cas/services/web/RegisteredServiceSimpleFormController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="3" selection-start="137" selection-end="172" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///home/tim/Tools/cas-server-3.3.2/cas-server-core/src/main/java/org/jasig/cas/services/DefaultServicesManagerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="20" selection-start="1010" selection-end="1010" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///home/tim/Tools/cas-server-3.3.2/cas-server-core/src/main/java/org/jasig/cas/services/InMemoryServiceRegistryDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="22" selection-start="728" selection-end="728" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///home/tim/Tools/cas-server-3.3.2/cas-server-core/src/main/java/org/jasig/cas/services/RegisteredServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="13" selection-start="910" selection-end="910" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/spring-configuration/securityContext.xml">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/cas-servlet.xml">
       <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="35" selection-start="1870" selection-end="1870" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/protocol_views.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/build.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="39" selection-end="39" vertical-scroll-proportion="-0.14263074">
+        <state line="15" column="81" selection-start="983" selection-end="983" vertical-scroll-proportion="0.68010074">
           <folding />
         </state>
       </provider>

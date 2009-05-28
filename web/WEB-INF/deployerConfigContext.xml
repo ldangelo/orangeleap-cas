@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC  "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
 <!--
 	| deployerConfigContext.xml centralizes into one file some of the declarative configuration that
 	| all CAS deployers will need to modify.
@@ -12,55 +13,7 @@
 	| declaration to replace the default SimpleTestUsernamePasswordAuthenticationHandler with
 	| one implementing your approach for authenticating usernames and passwords.
 	+-->
-<beans xmlns="http://www.springframework.org/schema/beans"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xmlns:p="http://www.springframework.org/schema/p"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd">
-	
-	<!-- BEGIN MPower customization - beans used for MPower Auth Hander -->
-
-    <bean id="dataSource" class="org.springframework.jndi.JndiObjectFactoryBean" p:jndiName="java:comp/env/jdbc/CAS"/>
-    <bean id="userDao" class="com.mpower.cas.repository.JdbcUserDao" p:dataSource-ref="dataSource"/>
-    <bean id="siteDao" class="com.mpower.cas.repository.JdbcSiteDao" p:dataSource-ref="dataSource"/>
-    <bean id="auditService" class="com.mpower.cas.service.AuditServiceImpl"/>
-    <bean id="passwordPolicy" class="com.mpower.cas.service.OpenSecurityPolicy"/>
-
-    <bean id="userSearchDao" class="com.mpower.cas.repository.JdbcUserSearchDao" p:dataSource-ref="dataSource">
-        <property name="columnNames">
-            <list>
-                <value>loginid</value>
-                <value>name</value>
-            </list>
-        </property>
-    </bean>
-
-    <bean id="siteSearchDao" class="com.mpower.cas.repository.JdbcSiteSearchDao" p:dataSource-ref="dataSource">
-        <property name="columnNames">
-            <list>
-                <value>domain</value>
-                <value>name</value>
-                <value>primarycontact</value>
-            </list>
-        </property>
-    </bean>
-
-    <bean id="userSearchService" class="com.mpower.cas.service.UserSearchServiceImpl" p:userSearchDao-ref="userSearchDao"/>
-    <bean id="siteSearchService" class="com.mpower.cas.service.SiteSearchServiceImpl" p:siteSearchDao-ref="siteSearchDao"/>
-    <bean id="userService" class="com.mpower.cas.service.UserServiceImpl"
-          p:auditService-ref="auditService"
-          p:passwordPolicy-ref="passwordPolicy"
-          p:userDao-ref="userDao"
-          p:searchService-ref="userSearchService"
-          p:passwordValidityDays="5"/>
-
-
-    <bean id="siteService" class="com.mpower.cas.service.SiteServiceImpl"
-          p:siteDao-ref="siteDao"
-          p:siteSearchService-ref="siteSearchService"/>
-
-
-    <!-- END MPower customization -->
-
+<beans>
 	<!--
 		| This bean declares our AuthenticationManager.  The CentralAuthenticationService service bean
 		| declared in applicationContext.xml picks up this AuthenticationManager by reference to its id, 
@@ -123,8 +76,9 @@
 					| This is the authentication handler that authenticates services by means of callback via SSL, thereby validating
 					| a server side SSL certificate.
 					+-->
-				<bean class="org.jasig.cas.authentication.handler.support.HttpBasedServiceCredentialsAuthenticationHandler"
-					p:httpClient-ref="httpClient" />
+				<bean
+					class="org.jasig.cas.authentication.handler.support.HttpBasedServiceCredentialsAuthenticationHandler" />
+
 				<!--
 					| This is the authentication handler declaration that every CAS deployer will need to change before deploying CAS 
 					| into production.  The default SimpleTestUsernamePasswordAuthenticationHandler authenticates UsernamePasswordCredentials
@@ -132,13 +86,35 @@
 					| local authentication strategy.  You might accomplish this by coding a new such handler and declaring
 					| edu.someschool.its.cas.MySpecialHandler here, or you might use one of the handlers provided in the adaptors modules.
 					+-->
-				<bean class="com.mpower.cas.service.MpowerUsernamePasswordAuthenticationHandler"
-                      p:userService-ref="userService"
-                      p:siteService-ref="siteService"/>
+				<!--				
+				<bean
+					class="org.jasig.cas.adaptors.ldap.BindLdapAuthenticationHandler">
+					<property name="filter" value="uid=%u" />
+					<property name="searchBase" value="ou=people,dc=rutgers,dc=edu" /> 
+					<property
+						name="contextSource"
+						ref="contextSource" />
+				</bean>
+				-->
+				<bean class="com.orangeleap.security.cas.TangerineAuthenticationHandler">
+					<property name="contextSource" ref="contextSource"/>
+					<!-- Property is ignored in our implementation. Idiots implemented setter
+                         as a final method with a Required check, so can't override to a no-op -->					
+					<property name="filter" value="uid=%u"/> 
+				</bean>
+
 			</list>
 		</property>
 	</bean>
 
+
+
+	<bean id="contextSource" class="org.springframework.ldap.core.support.LdapContextSource">
+		<property name="anonymousReadOnly" value="false" />
+		<property name="userDn" value="${ldap.user}" />
+		<property name="password" value="${ldap.password}" />
+		<property name="url" value="ldap://${ldap.host}:${ldap.port}/${ldap.root}"/>
+	</bean>	
 
 	<!--
 	This bean defines the security roles for the Services Management application.  Simple deployments can use the in-memory version.
@@ -150,15 +126,16 @@
 	battags=notused,ROLE_ADMIN
 	
 	where battags is the username you want to grant access to.  You can put one entry per line.
-	 -->	
+    -->
 	<bean id="userDetailsService" class="org.springframework.security.userdetails.memory.InMemoryDaoImpl">
 		<property name="userMap">
 			<value>
-			
+				
 		    </value>
 		</property>
 	</bean> 
-	
+
+    
 	<!-- 
 	Bean that defines the attributes that a service may return.  This example uses the Stub/Mock version.  A real implementation
 	may go against a database or LDAP server.  The id should remain "attributeRepository" though.
@@ -182,4 +159,6 @@
 	<bean
 		id="serviceRegistryDao"
 		class="org.jasig.cas.services.InMemoryServiceRegistryDaoImpl" />
+
+			
 </beans>

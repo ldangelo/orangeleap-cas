@@ -11,5 +11,9 @@
 	</description>
        
 	<bean id="propertyPlaceholderConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer"
-		p:location="/WEB-INF/cas.properties" />
+		p:location="classpath:cas.properties" />
+
+
+
+
 </beans>

@@ -13,6 +13,7 @@
 	</description>
 
 	<sec:http entry-point-ref="casProcessingFilterEntryPoint">
+		<sec:intercept-url pattern="/services/loggedout.html" filters="none" /> 
     	<sec:intercept-url pattern="/**" access="ROLE_ADMIN" />
         <sec:logout logout-url="/services/logout.html" logout-success-url="/services/loggedOut.html" />
     </sec:http>
@@ -20,7 +21,7 @@
 	<sec:authentication-manager alias="casAuthenticationManager"/>
 	
 	<bean id="serviceProperties" class="org.springframework.security.ui.cas.ServiceProperties"
-		p:service="${cas.securityContext.serviceProperties.service}"
+		p:service="${cas.baseUrl}/${cas.contextPrefix}${cas.context}/services/j_acegi_cas_security_check"
 		p:sendRenew="false" />
       
 	<bean id="casProcessingFilter" class="org.springframework.security.ui.cas.CasProcessingFilter"
@@ -33,7 +34,7 @@
 	</bean>
 
 	<bean id="casProcessingFilterEntryPoint" class="org.springframework.security.ui.cas.CasProcessingFilterEntryPoint"
-		p:loginUrl="${cas.securityContext.casProcessingFilterEntryPoint.loginUrl}"
+		p:loginUrl="${cas.baseUrl}/${cas.contextPrefix}${cas.context}/login"
 		p:serviceProperties-ref="serviceProperties" />
 
 	<bean id="casAuthenticationProvider" class="org.springframework.security.providers.cas.CasAuthenticationProvider"
@@ -43,7 +44,7 @@
 	    <sec:custom-authentication-provider />
 	    <property name="ticketValidator">
 	      <bean class="org.jasig.cas.client.validation.Cas20ServiceTicketValidator">
-	        <constructor-arg index="0" value="${cas.securityContext.ticketValidator.casServerUrlPrefix}" />
+	        <constructor-arg index="0" value="${cas.baseUrl}/${cas.contextPrefix}${cas.context}" />
 	        </bean>
 	    </property>
 	</bean>
