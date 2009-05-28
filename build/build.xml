@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="cas" basedir="." default="compile" xmlns:ivy="antlib:org.apache.ivy.ant">
+
+    <property name="war.name" value="${ant.project.name}.war"/>
+    <property name="api.zip" value="apidocs.zip"/>
+    <property name="src.dir" value="${basedir}/src"/>
+    <property  name="config.dir" value="${basedir}/config"/>
+    <property name="web.dir" value="${basedir}/web"/>
+    <property name="doc.dir" value="${basedir}/doc"/>
+    <property name="lib.dir" value="${basedir}/lib"/>
+    <property name="dist.dir" value="${basedir}/dist"/>
+    <property name="out.dir" value="${basedir}/out"/>
+    <property name="report.dir" value="${out.dir}/report"/>
+    <property name="exploded.dir" value="${out.dir}/exploded/war"/>
+    <property name="compile.out" value="${out.dir}/production/${ant.project.name}"/>
+
+    <path id="compile.classpath">
+        <fileset dir="${lib.dir}/war">
+            <include name="*.jar"/>
+        </fileset>
+        <fileset dir="${lib.dir}/build">
+            <include name="*.jar"/>
+        </fileset>
+    </path>
+
+    <target name="clean" description="Delete all the output directories">
+        <delete dir="${dist.dir}"/>
+        <delete dir="${doc.dir}"/>
+        <delete dir="${out.dir}"/>
+        <delete dir="${lib.dir}"/>
+    </target>
+
+    <target name="resolve" description="Retreive dependencies with ivy">
+        <mkdir dir="${lib.dir}"/>
+        <ivy:retrieve pattern="${lib.dir}/[conf]/[artifact]-[revision].[ext]" />
+    </target>
+
+    <target name="report" depends="resolve" description="--> generates a report of dependencies">
+        <mkdir dir="${report.dir}"/>
+        <ivy:report todir="${report.dir}"/>
+    </target>
+
+    <target name="compile" description="Compile the source files" depends="resolve">
+        <mkdir dir="${compile.out}"/>
+        <javac srcdir="${src.dir}" classpathref="compile.classpath" destdir="${compile.out}" source="1.6" debug="true" target="1.6" />
+        <copy todir="${compile.out}">
+            <fileset dir="${src.dir}">
+                <include name="**/*.properties"/>
+                <include name="**/*.xml"/>
+                <include name="**/*.gif"/>
+                <include name="**/*.jpeg"/>
+                <include name="**/*.jpg"/>
+                <include name="**/*.html"/>
+                <include name="**/*.dtd"/>
+                <include name="**/*.tld"/>
+                <include name="**/*.ftl"/>
+                <include name="**/*.xsd"/>
+            </fileset>
+        </copy>
+
+        <copy  todir="${compile.out}">
+            <fileset dir="${config.dir}">
+                <include name="**/*.*"/>
+             </fileset>
+        </copy>
+    </target>
+
+                                                                                                                                            
+    <target name="war" description="Create the war file" depends="compile">
+        <mkdir dir="${dist.dir}"/>
+        <war destfile="${dist.dir}/${war.name}">
+            <fileset dir="${web.dir}"/>
+            <lib dir="${lib.dir}/war"/>
+            <classes dir="${compile.out}"/>
+        </war>
+    </target>
+
+    <target name="explode" description="Explode the war for Tomcat debug" depends="war">
+        <mkdir dir="${exploded.dir}"/>
+        <unwar src="${dist.dir}/${war.name}" dest="${exploded.dir}"/>
+    </target>
+
+    <target name="javadoc" description="Generate the javadoc" depends="compile">
+        <mkdir dir="${doc.dir}"/>
+        <mkdir dir="${dist.dir}"/>
+        <javadoc sourcepath="${src.dir}" destdir="${doc.dir}" windowtitle="${ant.project.name} API"/>
+        <zip basedir="${doc.dir}" destfile="${dist.dir}/${api.zip}"/>
+    </target>
+
+    <target name="dist" description="Clean and build the whole distribution, including javadoc" depends="clean,war,javadoc"/>
+
+</project>
