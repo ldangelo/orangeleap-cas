@@ -1,34 +1,47 @@
-<%@ page trimDirectiveWhitespaces="true" session="true" pageEncoding="utf-8" %>
-<%@ page contentType="text/html; charset=UTF-8" %>
+<%@ page trimDirectiveWhitespaces="true" session="true" pageEncoding="UTF-8" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
-
-<html>
+<c:url var="resources" value="/resources"/>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <title>MPower Login</title>
-    <c:url value="/resources" var="resources"/>
-    <link href="${resources}/stylesheets/login.css" rel="stylesheet" type="text/css"/>
-    <link rel="shortcut icon" type="image/ico" href="${resources}/images/favicon.ico"/>
-    <script type="text/javascript" src="${resources}/javascripts/jquery.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Orange Leap Authentication Service</title>
+    <link rel="stylesheet" type="text/css" href="${resources}/ext/resources/css/ext-all.css"/>
+    <link rel="stylesheet" type="text/css" href="${resources}/stylesheets/login.css"/>
+    <script type="text/javascript" src="${resources}/ext/adapter/ext/ext-base.js"></script>
+    <script type="text/javascript" src="${resources}/ext/ext-all.js"></script>
+    <script type="text/javascript" src="${resources}/javascripts/generic.js"></script>
 </head>
 <body>
-<div class="loginPane">
-    <div class="loginContent">
-        <img alt="MPower Logo" src="${resources}/images/mpowerLogo.gif"/>
+<div id="header" class="x-hidden">
+    <h1>Orange Leap Authentication Service</h1>
+</div>
 
-        <div id="msg" class="success">
-			<div class="header"><spring:message code="screen.success.header" /></div>
-			<p><spring:message code="screen.success.success" /></p>
-			<p><spring:message code="screen.success.security" /></p>
-		</div>
-        
+<div id="center" class="x-hidden">
+
+
+    <div id="centerDiv">
+        <h1><spring:message code="screen.success.header" /></h1>
+
+        <div id="msg">
+
+            <p class="status"><spring:message code="screen.success.success" /></p>
+
+            <p class="sec-warning"><spring:message code="screen.success.security" /></p>
+
+        </div>
+
     </div>
 </div>
+
+
+<div id="footer" class="x-hidden">
+    Copyright 2009 &copy; Orange Leap
+</div>
+
 </body>
 </html>
-
-
-

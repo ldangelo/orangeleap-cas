@@ -1,78 +1,66 @@
-<%@ page trimDirectiveWhitespaces="true" session="true" pageEncoding="utf-8" %>
-<%@ page contentType="text/html; charset=UTF-8" %>
+<%@ page trimDirectiveWhitespaces="true" session="true" pageEncoding="UTF-8" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
-
-<html>
+<c:url var="resources" value="/resources"/>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <title>MPower Login</title>
-    <c:url value="/resources" var="resources"/>
-    <link href="${resources}/stylesheets/login.css" rel="stylesheet" type="text/css"/>
-    <link rel="shortcut icon" type="image/ico" href="${resources}/images/favicon.ico"/>
-    <script type="text/javascript" src="${resources}/javascripts/jquery.js"></script>
-    <script type="text/javascript" src="${resources}/javascripts/effects.core.js"></script>
-    <script type="text/javascript" src="${resources}/javascripts/effects.pulsate.js"></script>
-
-    <script type="text/javascript">
-        $(document).ready(function(){
-            // a little bling for the error message
-            $("#status").hide().effect("pulsate",{times: 3},700).show();
-        });
-
-    </script>
-
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Orange Leap Authentication Service</title>
+    <link rel="stylesheet" type="text/css" href="${resources}/ext/resources/css/ext-all.css"/>
+    <link rel="stylesheet" type="text/css" href="${resources}/stylesheets/login.css"/>
+    <script type="text/javascript" src="${resources}/ext/adapter/ext/ext-base.js"></script>
+    <script type="text/javascript" src="${resources}/ext/ext-all.js"></script>
+    <script type="text/javascript" src="${resources}/javascripts/login.js"></script>
 </head>
 <body>
-<div class="loginPane">
-    <div class="loginContent">
-        <img alt="MPower Logo" src="${resources}/images/mpowerLogo.gif"/>
+        <div id="header" class="x-hidden">
+                <h1>Orange Leap Authentication Service</h1>
+        </div>
 
-        <h1 class="loginHeader">Please sign in.</h1>
+        <div id="center" class="x-hidden">
 
-        <form:form method="post" id="fm1" cssClass="fm-v clearfix" commandName="${commandName}" htmlEscape="true">
-            <form:errors path="*" cssClass="errors" id="status" element="div"/>
-            <table class="loginInfo">
-                <tr>
-                    <td style="text-align:right"><label for="username"><spring:message
-                            code="screen.welcome.label.netid"/></label></td>
-                    <td><form:input cssClass="required" cssErrorClass="error" id="username" size="25" tabindex="1"
-                                    accesskey="${userNameAccessKey}" path="username" autocomplete="false"
-                                    htmlEscape="true"/></td>
-                </tr>
-                <tr>
-                    <td style="text-align:right"><label for="password"><spring:message
-                            code="screen.welcome.label.password"/></label></td>
-                    <td><spring:message code="screen.welcome.label.password.accesskey" var="passwordAccessKey"/>
-                        <form:password cssClass="required" cssErrorClass="error" id="password" size="25" tabindex="2"
-                                       path="password" accesskey="${passwordAccessKey}" htmlEscape="true"
-                                       autocomplete="off"/></td>
-                </tr>
 
-                <tr>
-                    <td colspan="2" align="center">
-                        <input type="hidden" name="lt" value="${flowExecutionKey}"/>
-                        <input type="hidden" name="_eventId" value="submit"/>
+                <div id="centerDiv">
+                    <h1>Application Login</h1>
 
-                        <input class="btn-submit" name="submit" accesskey="l"
-                               value="<spring:message code="screen.welcome.button.login" />" tabindex="4"
-                               type="submit"/>
-                        <input id="formReset" class="btn-reset" name="reset" accesskey="c"
-                               value="<spring:message code="screen.welcome.button.clear" />" tabindex="5" type="reset"/>
-                    </td>
-                </tr>
-                <tr class="buttonBar">
-                    <td colspan="2"><a href="#">Forgot your password?</a></td>
-                </tr>
-            </table>
+                    <div id="loginForm">
+                    <form:form method="post" id="fm1" commandName="${commandName}" htmlEscape="true">
+			        <form:errors path="*" cssClass="errors" id="errorMessage" element="div" />
 
-            <p class="welcomeMessage"><spring:message code="screen.welcome.security"/></p>
+                            <ol>
+                                <li>
+                                    <label for="username"><spring:message code="screen.welcome.label.netid" /></label>
+                                    <form:input cssClass="required" cssErrorClass="error" id="username" size="25" tabindex="1" path="username" autocomplete="false" htmlEscape="true" />
+                                </li>
+                            </ol>
+                            <ol>
+                                <li>
+                                    <label for="password"><spring:message code="screen.welcome.label.password" /></label>
+				                    <form:password cssClass="required" cssErrorClass="error" id="password" size="25" tabindex="2" path="password" htmlEscape="true" autocomplete="off" />
+                                    <input type="hidden" name="lt" value="${flowExecutionKey}" />
+					                <input type="hidden" name="_eventId" value="submit" />
+                                </li>
+                            </ol>
+                            <ol>
+                                <li class="buttons">
+                                    <input class="btn-submit" name="submit" accesskey="l" value="<spring:message code="screen.welcome.button.login" />" tabindex="4" type="submit" />
+                                    <input class="btn-reset" name="reset" accesskey="c" value="<spring:message code="screen.welcome.button.clear" />" tabindex="5" type="reset" />
+                                </li>
+                            </ol>
 
-        </form:form>
+                    </form:form>
+                    </div>
+                </div>
+        </div>
 
-    </div>
-</div>
+
+        <div id="footer" class="x-hidden">
+                Copyright 2009 &copy; Orange Leap
+        </div>
+
 </body>
 </html>
