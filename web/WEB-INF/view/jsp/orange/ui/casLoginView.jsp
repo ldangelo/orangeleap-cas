@@ -1,20 +1,17 @@
-<%@ page trimDirectiveWhitespaces="true" session="true" pageEncoding="UTF-8" %>
+<%@ page trimDirectiveWhitespaces="true" session="true" pageEncoding="ISO-8859-1" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
-<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
-<c:url var="resources" value="/resources"/>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
     <title>Orange Leap Authentication Service</title>
-    <link rel="stylesheet" type="text/css" href="${resources}/ext/resources/css/ext-all.css"/>
-    <link rel="stylesheet" type="text/css" href="${resources}/stylesheets/login.css"/>
-    <script type="text/javascript" src="${resources}/ext/adapter/ext/ext-base.js"></script>
-    <script type="text/javascript" src="${resources}/ext/ext-all.js"></script>
-    <script type="text/javascript" src="${resources}/javascripts/login.js"></script>
+    <link rel="stylesheet" type="text/css" href="resources/ext/resources/css/ext-all.css"/>
+    <link rel="stylesheet" type="text/css" href="resources/stylesheets/login.css"/>
+    <script type="text/javascript" src="resources/ext/adapter/ext/ext-base.js"></script>
+    <script type="text/javascript" src="resources/ext/ext-all.js"></script>
+    <script type="text/javascript" src="resources/javascripts/login.js"></script>
 </head>
 <body>
         <div id="header" class="x-hidden">
@@ -22,7 +19,6 @@
         </div>
 
         <div id="center" class="x-hidden">
-
 
                 <div id="centerDiv">
                     <h1>Application Login</h1>
@@ -34,13 +30,13 @@
                             <ol>
                                 <li>
                                     <label for="username"><spring:message code="screen.welcome.label.netid" /></label>
-                                    <form:input cssClass="required" cssErrorClass="error" id="username" size="25" tabindex="1" path="username" autocomplete="false" htmlEscape="true" />
+                                    <form:input cssClass="required" cssErrorClass="error" id="username" accesskey="u" size="25" tabindex="1" path="username" autocomplete="false" htmlEscape="true" />
                                 </li>
                             </ol>
                             <ol>
                                 <li>
                                     <label for="password"><spring:message code="screen.welcome.label.password" /></label>
-				                    <form:password cssClass="required" cssErrorClass="error" id="password" size="25" tabindex="2" path="password" htmlEscape="true" autocomplete="off" />
+				                    <form:password cssClass="required" cssErrorClass="error" id="password" accesskey="p" size="25" tabindex="2" path="password" htmlEscape="true" autocomplete="off" />
                                     <input type="hidden" name="lt" value="${flowExecutionKey}" />
 					                <input type="hidden" name="_eventId" value="submit" />
                                 </li>
@@ -57,10 +53,8 @@
                 </div>
         </div>
 
-
         <div id="footer" class="x-hidden">
                 Copyright 2009 &copy; Orange Leap
         </div>
-
 </body>
 </html>
