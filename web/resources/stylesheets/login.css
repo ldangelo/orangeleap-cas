@@ -70,13 +70,24 @@ h3 {
 
 #centerDiv {
     margin: auto;
-    height: 200px;
+    height: 230px;
 
+}
+
+#centerDiv a {
+    display: block;
+    text-align: center;
+    padding-top: 20px;
 }
 
 #centerDiv img {
     text-align: center;
     padding-bottom: 20px;
+}
+
+div.spaced {
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
 
 #loginForm {
@@ -110,10 +121,6 @@ h3 {
 #loginAgain a {
     font-weight: bold;
    
-}
-
-div.spaced {
-    padding-bottom: 15px;
 }
 
 /* FORM Setting */

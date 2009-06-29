@@ -8,12 +8,13 @@
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
     <title>Orange Leap Authentication Service</title>
     <link rel="stylesheet" type="text/css" href="resources/ext/resources/css/ext-all.css"/>
+    <link rel="stylesheet" type="text/css" href="resources/ext/resources/css/xtheme-gray.css"/>
     <link rel="stylesheet" type="text/css" href="resources/stylesheets/login.css"/>
     <script type="text/javascript" src="resources/ext/adapter/ext/ext-base.js"></script>
     <script type="text/javascript" src="resources/ext/ext-all.js"></script>
     <script type="text/javascript" src="resources/javascripts/login.js"></script>
 </head>
-<body>
+<body class="gray">
         <div id="header" class="x-hidden">
                 <h1>Orange Leap Authentication Service</h1>
         </div>
@@ -49,6 +50,7 @@
                             </ol>
 
                     </form:form>
+                        <a href="#" id="forgotPasswordLink">Forgot Password?</a>
                     </div>
                 </div>
         </div>

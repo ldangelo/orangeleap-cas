@@ -38,7 +38,7 @@
 
 
 <div id="footer" class="x-hidden">
-    Copyright 2009 &copy; Orange Leap
+    Copyright 2009 &copy; Orange Leap | <a href="logout">logout</a>
 </div>
 
 </body>

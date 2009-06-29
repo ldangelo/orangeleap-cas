@@ -43,7 +43,7 @@
                 </p>
             </c:if>
         </div>
-
+        <a href="login">Login Again</a>
     </div>
 </div>
 
