@@ -7,6 +7,9 @@
 		Defines the cookie that stores the TicketGrantingTicket.  You most likely should never modify these (especially the "secure" property).
 		You can change the name if you want to make it harder for people to guess.
 	</description>
+    <!-- NOTE: changed cookieSecure to false so that SSL is not required to access the cookie. This is to more
+           easily support the dev/QA environments which don't have SSL configured. For maximum security in a
+           production environment, you would probably want to flip this back to true. -->
 	<bean id="ticketGrantingTicketCookieGenerator" class="org.jasig.cas.web.support.CookieRetrievingCookieGenerator"
 		p:cookieSecure="false"
 		p:cookieMaxAge="-1"

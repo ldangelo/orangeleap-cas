@@ -96,7 +96,10 @@
 						ref="contextSource" />
 				</bean>
 				-->
-				<bean class="com.orangeleap.security.cas.TangerineAuthenticationHandler">
+				<!-- This is the Orange Leap secret sauce to CAS. We plugin our own AuthenticationManager
+				       implementation which knows how to deal with credentials in the user@site format. If
+				       the credentials are not in the correct format, and exception is thrown -->
+                <bean class="com.orangeleap.security.cas.TangerineAuthenticationHandler">
 					<property name="contextSource" ref="contextSource"/>
 					<!-- Property is ignored in our implementation. Idiots implemented setter
                          as a final method with a Required check, so can't override to a no-op -->					
@@ -108,7 +111,9 @@
 	</bean>
 
 
-
+    <!-- ContextSource used by the TangerineAuthenticationHandler to connect to our LDAP respository.
+           It uses the same token names as Tangerine/OrangeLeap for the LDAP configuration so that we
+           don't have to duplicate the settings in the common conf file -->
 	<bean id="contextSource" class="org.springframework.ldap.core.support.LdapContextSource">
 		<property name="anonymousReadOnly" value="false" />
 		<property name="userDn" value="${ldap.userDn}" />

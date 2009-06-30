@@ -13,7 +13,8 @@
 	</description>
 
 	<sec:http entry-point-ref="casProcessingFilterEntryPoint">
-		<sec:intercept-url pattern="*.json" filters="none" />
+		<!-- We need to allow the JSON requests through, as they are used for the Password Reset requests -->
+        <sec:intercept-url pattern="*.json" filters="none" />
         <sec:intercept-url pattern="/services/loggedout.html" filters="none" />
     	<sec:intercept-url pattern="/**" access="ROLE_ADMIN" />
         <sec:logout logout-url="/services/logout.html" logout-success-url="/services/loggedOut.html" />
