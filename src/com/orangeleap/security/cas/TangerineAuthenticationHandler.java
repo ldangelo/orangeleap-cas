@@ -41,7 +41,12 @@ public class TangerineAuthenticationHandler extends AbstractLdapUsernamePassword
 
         Filter filter = new EqualsFilter("uid", args[0]);
 
-        return getLdapTemplate().authenticate( String.format("o=%s",args[1]), filter.toString(), password );
+        try {
+            return getLdapTemplate().authenticate( String.format("o=%s",args[1]), filter.toString(), password );
+        } catch (Exception e) {
+        	logger.debug(e);
+        	return false;
+        }
 
     }
 
