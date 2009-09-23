@@ -8,11 +8,15 @@
     <property name="web.dir" value="${basedir}/web"/>
     <property name="lib.dir" value="${basedir}/lib"/>
     <property name="dist.dir" value="${basedir}/dist"/>
+    <property name="build.support.dir" value="${basedir}/build"/>
     <property name="out.dir" value="${basedir}/out"/>
     <property name="exploded.dir" value="${out.dir}/exploded/war"/>
     <property name="compile.out" value="${out.dir}/production/${ant.project.name}"/>
 
     <path id="compile.classpath">
+        <fileset dir="${build.support.dir}">
+            <include name="*.jar"/>
+        </fileset>
         <fileset dir="${lib.dir}">
             <include name="*.jar"/>
         </fileset>
