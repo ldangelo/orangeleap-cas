@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<project name="Tang" basedir=".." default="compile">
+<project name="Tang" basedir=".." default="dist">
 
     <property name="war.name" value="cas.war"/>
     <property name="src.dir" value="${basedir}/src"/>
