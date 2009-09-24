@@ -7,7 +7,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
-    <title>Orange Leap Authentication Service</title>
+    <title>Authentication Service</title>
     <link rel="stylesheet" type="text/css" href="resources/ext/resources/css/ext-all.css"/>
     <link rel="stylesheet" type="text/css" href="resources/stylesheets/login.css"/>
     <script type="text/javascript" src="resources/ext/adapter/ext/ext-base.js"></script>
@@ -16,7 +16,7 @@
 </head>
 <body>
 <div id="header" class="x-hidden">
-    <h1>Orange Leap Authentication Service</h1>
+    <h1>Authentication Service</h1>
 </div>
 
 <div id="center" class="x-hidden">
