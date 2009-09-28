@@ -5,6 +5,6 @@ public class RootPathCookieRetrievingCookieGenerator extends org.jasig.cas.web.s
 	@Override
 	public void setCookiePath(String s) {
 		// Dont allow InitialFlowSetupAction to set cookie path to CAS context path
-		super.setCookiePath("\\");
+		super.setCookiePath("/");
 	}
 }
