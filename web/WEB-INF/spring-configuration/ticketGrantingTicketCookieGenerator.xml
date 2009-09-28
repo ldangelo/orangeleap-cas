@@ -7,12 +7,29 @@
 		Defines the cookie that stores the TicketGrantingTicket.  You most likely should never modify these (especially the "secure" property).
 		You can change the name if you want to make it harder for people to guess.
 	</description>
-    <!-- NOTE: changed cookieSecure to false so that SSL is not required to access the cookie. This is to more
+	
+		   <!-- NOTE: changed cookieSecure to false so that SSL is not required to access the cookie. This is to more
            easily support the dev/QA environments which don't have SSL configured. For maximum security in a
            production environment, you would probably want to flip this back to true. -->
+           
+           <!-- 
+           
+           Since we want all our apps (jasperserver, clementine, tangerine) to be able to share the TGT session to issue their own requests to APIs on the user's behalf, we are making the cookiePath="/"
+           The requests are local to the server so SSL should not be required.
+           
+           See:
+           http://www.ja-sig.org/wiki/display/CASUM/Clustering+CAS  :
+            Ensuring Ticket Granting Ticket Cookie Visibility
+			The last step before you can test out whether CAS is set up to be clustered correctly is to ensure that the ticket granting ticket (TGT) cookie set in the users' browsers is visible by all of the nodes in the CAS cluster.  Using your favorite text editor (shameless plug for vim), open the cas-servlet.xml file and look for the warnCookieGenerator and ticketGrantingTicketCookieGenerator beans.  Both of these beans need to have the cookieDomain property set to the domain where the TGT cookie should be visible to.  Edit the bean declarations based on the following example (substitute your domain as necessary):
+			Protect your ticket granting cookies!
+			Warning: do not set the cookieDomain any wider than absolutely necessary. All hosts in the cookieDomain must be absolutely trusted - at a security level of your CAS server itself. Ideally all clustered CAS server instances will appear to the end user's web browser to be answering the very same URLs (e.g., the cluster is fronted by a hardware load balancer) and so the cookieDomain can be maximally restrictive.
+			Setting the cookie domain such that untrusted servers have access to the Ticket Granting Cookie will allow those servers to hijack the end user's single sign on session and acquire service tickets in his or her name to illicitly authenticate to CASified applications.
+           
+            -->
+            
 	<bean id="ticketGrantingTicketCookieGenerator" class="org.jasig.cas.web.support.CookieRetrievingCookieGenerator"
 		p:cookieSecure="false"
 		p:cookieMaxAge="-1"
 		p:cookieName="CASTGC"
-		p:cookiePath="/cas" />
+		p:cookiePath="/" />
 </beans>
