@@ -64,7 +64,7 @@ function buildForms() {
             {fieldLabel: 'Username@Site', name: 'login', allowBlank:false},
             {fieldLabel: 'Email Address', name: 'email', allowBlank:false, vtype: 'email'}
         ],
-        buttons: [{text: 'Request Reset', type: 'submit', formBind: true, handler: Forms.submitResetPassword},
+        buttons: [{text: 'Request Reset', type: 'submit', formBind: true, handler: function() {Forms.submitResetPassword();} },
         {text: 'Cancel', handler: function() {Forms.resetPasswordWindow.hide(); Forms.resetPasswordForm.getForm().reset();}}]
     });
 
