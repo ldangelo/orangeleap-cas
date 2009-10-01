@@ -52,10 +52,10 @@
     Copyright 2009 &copy; Orange Leap
 </div>
 
-        <script>
-        document.cookie = "JSESSIONID=0; path=/${cas.contextPrefix}jasperserver;";
-        document.cookie = "JSESSIONID=0; path=/${cas.contextPrefix}orangeleap;";
-        </script>
+	        <script>
+             document.cookie = "JSESSIONID=0; path=/<%= System.getProperty("contextPrefix") %>jasperserver;";
+             document.cookie = "JSESSIONID=0; path=/<%= System.getProperty("contextPrefix") %>orangeleap;";
+            </script>
 
 
 </body>
