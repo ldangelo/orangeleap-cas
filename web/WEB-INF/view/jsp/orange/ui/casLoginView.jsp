@@ -23,6 +23,7 @@
 
                 <div id="centerDiv">
                     <h1>Application Login</h1>
+                    <img src="/images/orangeleap-logo-tag.png" />
 
                     <div id="loginForm">
                     <form:form method="post" id="fm1" commandName="${commandName}" htmlEscape="true">
