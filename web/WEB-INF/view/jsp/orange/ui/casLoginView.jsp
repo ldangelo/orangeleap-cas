@@ -15,15 +15,15 @@
     <script type="text/javascript" src="resources/javascripts/login.js"></script>
 </head>
 <body class="gray">
-        <div id="header" class="x-hidden">
-                <h1>Authentication Service</h1>
+		
+		<div id="header" class="x-hidden">
+  	      <!--            <img src="images/orangeleap-logo-tag.png" /> -->
         </div>
-
+        
         <div id="center" class="x-hidden">
 
                 <div id="centerDiv">
-                    <h1>Application Login</h1>
-                    <img src="/images/orangeleap-logo-tag.png" />
+                    <h1>Login</h1>
 
                     <div id="loginForm">
                     <form:form method="post" id="fm1" commandName="${commandName}" htmlEscape="true">
