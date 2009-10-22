@@ -42,7 +42,7 @@
                                                                                                                                             
     <target name="war" description="Create the war file" depends="compile">
         <mkdir dir="${dist.dir}"/>
-        <war destfile="${deploy.path}/${war.name}">
+        <war destfile="${dist.dir}/${war.name}">
             <fileset dir="${web.dir}"/>
             <lib dir="${lib.dir}"/>
             <classes dir="${compile.out}"/>
