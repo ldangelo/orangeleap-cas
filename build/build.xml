@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<project name="Tang" basedir=".." default="dist">
+<project name="tang" basedir=".." default="build">
 
+    <property file="${basedir}/build/build.properties" />
     <property name="war.name" value="cas.war"/>
     <property name="src.dir" value="${basedir}/src"/>
-    <property  name="config.dir" value="${basedir}/config"/>
+    <property name="config.dir" value="${basedir}/config"/>
     <property name="web.dir" value="${basedir}/web"/>
     <property name="lib.dir" value="${basedir}/lib"/>
     <property name="dist.dir" value="${basedir}/dist"/>
@@ -31,7 +32,7 @@
         <mkdir dir="${compile.out}"/>
         <javac srcdir="${src.dir}" classpathref="compile.classpath" destdir="${compile.out}" source="1.6" debug="true" target="1.6" />
 
-        <copy  todir="${compile.out}" includeemptydirs="true">
+        <copy todir="${compile.out}" includeemptydirs="true">
             <fileset dir="${config.dir}">
                 <include name="**/*.*"/>
              </fileset>
@@ -41,7 +42,7 @@
                                                                                                                                             
     <target name="war" description="Create the war file" depends="compile">
         <mkdir dir="${dist.dir}"/>
-        <war destfile="${dist.dir}/${war.name}">
+        <war destfile="${deploy.path}/${war.name}">
             <fileset dir="${web.dir}"/>
             <lib dir="${lib.dir}"/>
             <classes dir="${compile.out}"/>
@@ -54,6 +55,6 @@
     </target>
 
 
-    <target name="dist" description="Clean and build the whole distribution, including javadoc" depends="clean,war"/>
+    <target name="build" description="Clean and build the whole distribution, including javadoc" depends="clean,war"/>
 
 </project>
