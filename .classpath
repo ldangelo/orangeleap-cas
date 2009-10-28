@@ -52,7 +52,7 @@
 	<classpathentry kind="lib" path="lib/xmlsec-1.4.0.jar"/>
 	<classpathentry kind="lib" path="build/servlet-api-6.0.18.jar"/>
 	<classpathentry kind="lib" path="lib/cas-client-core-3.1.8.jar"/>
-	<classpathentry kind="lib" path="lib/cas-server-core-3.3.3.jar"/>
 	<classpathentry kind="lib" path="lib/cas-server-support-ldap-3.3.3.jar"/>
+	<classpathentry kind="lib" path="lib/cas-server-core-3.3.3-MODEFIED_BY_ORANGELEAP.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
