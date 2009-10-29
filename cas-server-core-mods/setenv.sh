@@ -1,0 +1,1 @@
+CATALINA_OPTS="-DcasAlias.http://localhost:10880/beta8-jasperserver/j_acegi_cas_security_check=https://beta.orangeleap.com/beta8-jasperserver/j_acegi_cas_security_check -agentlib:jdwp=transport=dt_socket,address=10800,server=y,suspend=n -server -Xms500M -Xmx500M -XX:MaxPermSize=384M -XX:+HeapDumpOnOutOfMemoryError"
